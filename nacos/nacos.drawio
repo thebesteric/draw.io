@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T10:35:15.964Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_BZMsRpqyQUQdkeb8RvO" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T12:56:25.892Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9lFuFxgfoBjqEvVCP1zu" version="15.9.6" type="github">
   <diagram id="hunALPwYAO61CZnnPAhh" name="Page-1">
     <mxGraphModel dx="1186" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -482,8 +482,10 @@
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-29" value="updateIPs&lt;font color=&quot;#000000&quot;&gt;(value.getInstanceList(), KeyBuilder.matchEphemeralInstanceListKey(key));&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#FF0000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="815" y="1730" width="490" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="2PmmHMX1RF9NsNLcKvbn-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="2PmmHMX1RF9NsNLcKvbn-32" target="2PmmHMX1RF9NsNLcKvbn-34">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2PmmHMX1RF9NsNLcKvbn-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2PmmHMX1RF9NsNLcKvbn-32" target="2PmmHMX1RF9NsNLcKvbn-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="1940" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-36" value="Cluster#updateIps" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="2PmmHMX1RF9NsNLcKvbn-35">
           <mxGeometry x="-0.0828" y="2" relative="1" as="geometry">
@@ -493,8 +495,20 @@
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-32" value="&lt;font color=&quot;#000000&quot;&gt;clusterMap.get(entry.getKey()).updateIps(entryIPs, ephemeral);&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#FF0000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="875" y="1830" width="370" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="2PmmHMX1RF9NsNLcKvbn-34" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#FF0000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1960" width="120" height="60" as="geometry" />
+        <mxCell id="2PmmHMX1RF9NsNLcKvbn-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="2PmmHMX1RF9NsNLcKvbn-37" target="2PmmHMX1RF9NsNLcKvbn-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2PmmHMX1RF9NsNLcKvbn-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="2PmmHMX1RF9NsNLcKvbn-37" target="2PmmHMX1RF9NsNLcKvbn-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2PmmHMX1RF9NsNLcKvbn-37" value="ephemeral?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1950" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2PmmHMX1RF9NsNLcKvbn-38" value="ephemeralInstances = toUpdateInstances;" style="whiteSpace=wrap;html=1;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="937.5" y="2070" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2PmmHMX1RF9NsNLcKvbn-40" value="persistentInstances = toUpdateInstances;" style="whiteSpace=wrap;html=1;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1960" width="255" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
