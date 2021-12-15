@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T15:36:09.905Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="2TNYwdaB88fZ7o8_31R4" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T16:12:49.051Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="o0N1HAsEvP1mwBRJoJSB" version="15.9.6" type="github">
   <diagram id="hunALPwYAO61CZnnPAhh" name="Page-1">
     <mxGraphModel dx="1186" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -492,7 +492,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2PmmHMX1RF9NsNLcKvbn-32" value="clusterMap.get(entry.getKey())&lt;font color=&quot;#000000&quot;&gt;.updateIps(entryIPs, ephemeral);&lt;br&gt;clusterMap 是注册表中 Service 的一部分&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="2PmmHMX1RF9NsNLcKvbn-32" value="clusterMap.get(entry.getKey())&lt;font color=&quot;#000000&quot;&gt;.&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;updateIps&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;(entryIPs, ephemeral);&lt;br&gt;clusterMap 是注册表中 Service 的一部分&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="910" y="2640" width="370" height="57" as="geometry" />
         </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="2PmmHMX1RF9NsNLcKvbn-37" target="2PmmHMX1RF9NsNLcKvbn-38">
@@ -659,6 +659,12 @@
         </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-101" value="instance-logistic-4" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="853.75" y="660" width="102.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2PmmHMX1RF9NsNLcKvbn-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="2PmmHMX1RF9NsNLcKvbn-102" target="2PmmHMX1RF9NsNLcKvbn-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2PmmHMX1RF9NsNLcKvbn-102" value="&lt;font color=&quot;#000000&quot;&gt;使用了&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;Copy On Write&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;思想&lt;br&gt;拿到旧的实例列表复制一份，与新的实例进行比较，然后替换旧的实例列表&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="640" y="2623" width="210" height="91" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
