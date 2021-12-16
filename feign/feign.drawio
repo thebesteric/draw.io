@@ -1,1 +1,139 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T10:38:59.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="15.9.6" etag="vXL7150FZ6sJa1Yb8Cok" type="github"><diagram id="IZlhTCBGvBbKpvOP-0TH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-16T15:04:39.231Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="xKX1pG6NZXAopVx2v7vt" version="15.9.6" type="github">
+  <diagram id="IZlhTCBGvBbKpvOP-0TH" name="Page-1">
+    <mxGraphModel dx="1186" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-1" target="fGwz-xtjpAjNvyOouB7V-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-1" value="@EnableFeignClients" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-4" target="fGwz-xtjpAjNvyOouB7V-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-4" value="@Import(&lt;font color=&quot;#ff0000&quot;&gt;FeignClientsRegistrar&lt;/font&gt;.class)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="370" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-6" target="fGwz-xtjpAjNvyOouB7V-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-6" target="fGwz-xtjpAjNvyOouB7V-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-6" value="@Override&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;registerBeanDefinitions&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="472.5" y="480" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-8" value="registerDefaultConfiguration(metadata, registry)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="480" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-10" target="fGwz-xtjpAjNvyOouB7V-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-16" value="扫描所有带有 &lt;font color=&quot;#ff0000&quot;&gt;@FeignClient&lt;/font&gt; 的类" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="fGwz-xtjpAjNvyOouB7V-15">
+          <mxGeometry x="-0.0762" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-10" value="registerFeignClients(metadata, registry);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="433.75" y="590" width="242.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-12" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;@FeignClient&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;value = &lt;/font&gt;&lt;span style=&quot;color: rgb(106 , 135 , 89)&quot;&gt;&quot;mall-account&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;path = &lt;/font&gt;&lt;span style=&quot;color: rgb(106 , 135 , 89)&quot;&gt;&quot;/account&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public interface &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;AccountFeignService &lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;{&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@GetMapping&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(106 , 135 , 89)&quot;&gt;&quot;/{id}&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;    &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;R &lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;get&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@PathVariable &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;String id&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@PostMapping&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;value = &lt;/font&gt;&lt;span style=&quot;color: rgb(106 , 135 , 89)&quot;&gt;&quot;/save&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;consumes = MediaType.&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;APPLICATION_JSON_VALUE)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;    &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;R &lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;save&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@RequestBody &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;Map&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;&amp;lt;&lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;String&lt;/font&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;Object&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;&amp;gt; &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;params&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;span style=&quot;background-color: rgb(43 , 43 , 43)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="20" width="670" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-13" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@SpringBootApplication&lt;br&gt;&lt;/span&gt;@EnableFeignClients&lt;font color=&quot;#bbb529&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public class &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;AppFeign &lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;{&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public static void &lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;main&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;String&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;[] &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;args&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;) {&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;        &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;SpringApplication.&lt;/font&gt;&lt;span style=&quot;color: rgb(169 , 183 , 198) ; font-style: italic&quot;&gt;run&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;AppFeign.&lt;/font&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;class, &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;args&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="32.5" y="30" width="480" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-14" target="fGwz-xtjpAjNvyOouB7V-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-19" value="注册 FeignClient" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="fGwz-xtjpAjNvyOouB7V-18">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-14" value="scanner.findCandidateComponents(basePackage)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="710" width="295" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-17" target="fGwz-xtjpAjNvyOouB7V-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-17" value="&lt;font color=&quot;#ff0000&quot;&gt;registerFeignClient&lt;/font&gt;(registry, annotationMetadata, attributes);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="830" width="365" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;dashed=1;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-20" target="fGwz-xtjpAjNvyOouB7V-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-20" target="fGwz-xtjpAjNvyOouB7V-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-20" value="&lt;font color=&quot;#ff0000&quot;&gt;FeignClientFactoryBean.class&lt;br&gt;&lt;/font&gt;代理 Bean" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="940" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-22" value="将 @FeignClient 注解的信息，交给工厂 Bean 代理类，并注册到 Spring 容器中去" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="730" y="917.5" width="230" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#FF0000;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-24" target="fGwz-xtjpAjNvyOouB7V-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-26" value="对注册到代理工厂 bean 调用其&lt;br&gt;getObject() 方法，获取其真实&lt;br&gt;的代理类" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="fGwz-xtjpAjNvyOouB7V-25">
+          <mxGeometry x="-0.1238" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-24" value="Spring 启动时调用 refresh() 方法" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-27" target="fGwz-xtjpAjNvyOouB7V-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-31" value="getTarget()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="fGwz-xtjpAjNvyOouB7V-30">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-27" value="getObject()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-29" target="fGwz-xtjpAjNvyOouB7V-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-29" value="&lt;font color=&quot;#ff0000&quot;&gt;loadBalance()&lt;br&gt;&lt;/font&gt;使用 JDK 生产代理对象" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="472.5" y="1169" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-32" target="fGwz-xtjpAjNvyOouB7V-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-37" value="实际生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="fGwz-xtjpAjNvyOouB7V-35">
+          <mxGeometry x="-0.1429" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-32" value="Client client = getOptional(context, Client.class);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="1280" width="305" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-34" value="&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;LoadBalancerFeignClient&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="1390" width="175" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=230;exitDy=60;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;dashed=1;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-38" target="fGwz-xtjpAjNvyOouB7V-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="fGwz-xtjpAjNvyOouB7V-38" target="fGwz-xtjpAjNvyOouB7V-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-42" value="整合 Ribbon 实现负载均衡" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="fGwz-xtjpAjNvyOouB7V-41">
+          <mxGeometry x="-0.0485" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-38" value="调用 Feign 接口的时候，会调用 LoadBalancerFeignClient 的 execute 方法" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1358.5" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fGwz-xtjpAjNvyOouB7V-40" value="RibbonRequst" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
