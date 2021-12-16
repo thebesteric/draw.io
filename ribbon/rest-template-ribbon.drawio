@@ -1,1 +1,381 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T06:11:42.463Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="15.9.6" etag="l8GxrPQIH-tYTG3WiGD6" type="github"><diagram id="jnU9VCtfKc_u2QCwwV4z">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-16T10:34:48.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="TWRkDAQ-RuEoWb1lKQrY" version="15.9.6" type="github">
+  <diagram id="jnU9VCtfKc_u2QCwwV4z" name="Page-1">
+    <mxGraphModel dx="1130" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--1" value="&lt;pre style=&quot;font-size: 9.8pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Bean&lt;br&gt;&lt;/span&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;@LoadBalanced&lt;/font&gt;&lt;span style=&quot;color: rgb(128 , 128 , 128)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;RestTemplate &lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 198 , 109)&quot;&gt;restTemplate&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;LoadBalancerClient loadBalancerClient&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;) {&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;return new &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;RestTemplate&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;()&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: rgb(128 , 128 , 128)&quot;&gt;// 如果需要使用 service-name 进行调用的话，需要增加 LoadBalancerInterceptor&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128 , 128 , 128)&quot;&gt;    // 这个也是 @LoadBalanced 的实现方式&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128 , 128 , 128)&quot;&gt;    // RestTemplate restTemplate = new RestTemplate();&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128 , 128 , 128)&quot;&gt;    // restTemplate.setInterceptors(Collections.singletonList(new LoadBalancerInterceptor(loadBalancerClient)));&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128 , 128 , 128)&quot;&gt;    // return restTemplate;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span style=&quot;font-size: 13.0667px ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; white-space: normal&quot;&gt;restTemplate.getForObject(&quot;http://&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;mall-user&lt;/b&gt;&lt;/font&gt;/user/get/&quot; + id, R.class);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="900" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--3" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Target&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;({ &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;ElementType.&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;FIELD&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;ElementType.&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;PARAMETER&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;ElementType.&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;METHOD })&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Retention&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;(&lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;RetentionPolicy.&lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;RUNTIME)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Documented&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(187 , 181 , 41)&quot;&gt;@Inherited&lt;br&gt;&lt;/span&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;@Qualifier&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#bbb529&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;public &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;@&lt;/font&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;interface &lt;/span&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;LoadBalanced&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#bbb529&quot;&gt; &lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;{&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="290" width="600" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--5" target="ezDLcKFUGdAhIEAtUIj--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--10" value="META-INF/spring.factories" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--9">
+          <mxGeometry y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--5" value="@LoadBalanced" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="207.38" y="540" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--8" target="ezDLcKFUGdAhIEAtUIj--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--13" value="初始化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--12">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint x="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--8" target="ezDLcKFUGdAhIEAtUIj--14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547.38" y="683" />
+              <mxPoint x="547.38" y="769" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--8" target="ezDLcKFUGdAhIEAtUIj--25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="477.38" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="547.38" y="683" />
+              <mxPoint x="547.38" y="879" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--8" target="ezDLcKFUGdAhIEAtUIj--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--29" value="属性" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--28">
+          <mxGeometry x="-0.0924" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--8" value="&lt;font color=&quot;#ff8000&quot;&gt;@Configuration&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;LoadBalancerAutoConfiguration&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="172.38" y="650" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--11" target="ezDLcKFUGdAhIEAtUIj--14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="863.38" y="683" />
+              <mxPoint x="863.38" y="754" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--19" value="传入 interceptor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--18">
+          <mxGeometry x="0.1863" relative="1" as="geometry">
+            <mxPoint y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--11" value="&lt;font color=&quot;#000000&quot;&gt;@Bean&lt;br&gt;LoadBalancerInterceptor&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="628.38" y="653.75" width="185" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--14" target="ezDLcKFUGdAhIEAtUIj--22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--14" target="ezDLcKFUGdAhIEAtUIj--25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="863.38" y="783" />
+              <mxPoint x="863.38" y="864" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--33" value="传入&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;RestTemplateCustomizer&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--32">
+          <mxGeometry x="0.0464" y="-1" relative="1" as="geometry">
+            <mxPoint x="5" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--14" value="&lt;div&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;@Bean&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;@ConditionalOnMissingBean&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;RestTemplateCustomizer&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=0;labelBackgroundColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="627.38" y="740" width="185" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--22" value="定制 restTemplate，其实就是给 restTemplate 传入了一个拦截器，用来拦截 restTmplate 的请求&lt;br&gt;&lt;br&gt;restTemplate.setInterceptors(interceptor)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="993.38" y="698.75" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--25" target="ezDLcKFUGdAhIEAtUIj--34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--25" value="&lt;div&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;@Bean&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;SmartInitializingSingleton&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=0;labelBackgroundColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="628.38" y="850" width="185" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--27" target="ezDLcKFUGdAhIEAtUIj--25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--27" value="@LoadBalanced &lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;@Autowired(required = false) &lt;br&gt;private List&amp;lt;RestTemplate&amp;gt; restTemplates = Collections.emptyList();&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78.63" y="890" width="387.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--34" value="拿到所有的被 @LoadBalanced 注解的 RestTemplate，并通过RestTemplateCustomizer 的 customize 进行定制&lt;br&gt;&lt;br&gt;customizer.customize(restTemplate);" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="993.38" y="870" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--38" target="ezDLcKFUGdAhIEAtUIj--39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--38" value="&lt;pre style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 13.0667px ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;restTemplate.getForObject(&quot;http://&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;mall-user&lt;/b&gt;&lt;/font&gt;/user/get/&quot; + id, R.class);&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="446" y="1090" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--39" target="ezDLcKFUGdAhIEAtUIj--40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--42" value="implemeents" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--41">
+          <mxGeometry x="-0.3853" y="-1" relative="1" as="geometry">
+            <mxPoint x="17" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--39" target="ezDLcKFUGdAhIEAtUIj--44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--46" value="LoadBalancerInterceptor#&lt;font color=&quot;#ff0000&quot;&gt;intercept&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--45">
+          <mxGeometry x="-0.075" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--39" value="LoadBalancerInterceptor" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="656.01" y="1230" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--40" value="ClientHttpRequestInterceptor" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1230" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--44" target="ezDLcKFUGdAhIEAtUIj--56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--67" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;serviceName&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--57">
+          <mxGeometry x="-0.1078" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--44" value="String &lt;font color=&quot;#ff0000&quot;&gt;serviceName&lt;/font&gt; = originalUri.getHost();&lt;br&gt;拿到微服务名称" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="616.01" y="1360" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--47" target="ezDLcKFUGdAhIEAtUIj--48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--47" value="&lt;font color=&quot;#000000&quot;&gt;spring-cloud-netflix-ribbon.jar&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1150" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--48" target="ezDLcKFUGdAhIEAtUIj--51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--48" value="@AutoConfigureBefore&lt;font color=&quot;#000000&quot;&gt;({ &lt;/font&gt;&lt;font color=&quot;#009900&quot;&gt;LoadBalancerAutoConfiguration.class&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;, &lt;/font&gt;&lt;font color=&quot;#009900&quot;&gt;AsyncLoadBalancerAutoConfiguration.class&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt; })&lt;br&gt;RibbonAutoConfiguration&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1270" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--51" value="&lt;font color=&quot;#000000&quot;&gt;@Bean&lt;br&gt;@ConditionalOnMissingBean(LoadBalancerClient.class)&lt;/font&gt;&lt;br&gt;LoadBalancerClient" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1380" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--53" target="ezDLcKFUGdAhIEAtUIj--51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--53" target="ezDLcKFUGdAhIEAtUIj--56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--53" value="RibbonLoadBalancerClient" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="1470" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--56" target="ezDLcKFUGdAhIEAtUIj--65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--128" value="execute" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--66">
+          <mxGeometry x="-0.1262" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--56" value="this.&lt;font color=&quot;#ff0000&quot;&gt;loadBalancer&lt;/font&gt;.execute" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="647.32" y="1470" width="197.37" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--60" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;META-INF/spring.factories&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1230" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--65" target="ezDLcKFUGdAhIEAtUIj--68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--70" value="context.getBean(type);" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--69">
+          <mxGeometry x="-0.0837" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--65" target="ezDLcKFUGdAhIEAtUIj--84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--65" value="ILoadBalancer loadBalancer = &lt;font color=&quot;#ff0000&quot;&gt;getLoadBalancer&lt;/font&gt;(serviceId);" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="569.01" y="1570" width="353.99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--68" value="ZoneAwareLoadBalancer" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1570" width="164.01" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--71" target="ezDLcKFUGdAhIEAtUIj--74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--71" target="ezDLcKFUGdAhIEAtUIj--76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--71" target="ezDLcKFUGdAhIEAtUIj--78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--71" target="ezDLcKFUGdAhIEAtUIj--96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--71" value="@Configuration&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;RibbonClientConfiguration&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1736" width="167.62" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--74" value="@Bean&lt;br&gt;@ConditionalOnMissingBean&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;IRule&lt;/font&gt; ribbonRule&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;ZoneAvoidanceRule&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="281.13" y="1730" width="208.87" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--76" value="@Bean&lt;br&gt;@ConditionalOnMissingBean&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;IPing&lt;/font&gt; ribbonPing&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;DummyPing&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="281.13" y="1825" width="208.87" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--78" target="ezDLcKFUGdAhIEAtUIj--100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--78" value="@Bean&lt;br&gt;@ConditionalOnMissingBean&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;ILoadBalancer &lt;/font&gt;ribbonLoadBalancer&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;ZoneAwareLoadBalancer&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="281.13" y="1915" width="208.87" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--84" target="ezDLcKFUGdAhIEAtUIj--87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--89" value="rule.choose(key);" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--88">
+          <mxGeometry x="-0.1096" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--84" target="ezDLcKFUGdAhIEAtUIj--146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--84" value="Server server = &lt;font color=&quot;#ff0000&quot;&gt;getServer&lt;/font&gt;(loadBalancer, hint);" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610.52" y="1669" width="270.99" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;dashed=1;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--94" target="ezDLcKFUGdAhIEAtUIj--90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--87" target="ezDLcKFUGdAhIEAtUIj--92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--87" value="PredicateBasedRule" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1037.005" y="1669.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--90" value="默认就是一个轮询的实现" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1264.01" y="1860" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--92" target="ezDLcKFUGdAhIEAtUIj--94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--92" value="lb.getAllServers()" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1037.005" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--94" value="&lt;font color=&quot;#ff0000&quot;&gt;incrementAndGetModulo&lt;/font&gt;(eligible.size())" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980.51" y="1870" width="232.99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--96" value="@Bean&lt;br&gt;@ConditionalOnMissingBean&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;ServerList&amp;lt;Server&amp;gt; &lt;/font&gt;ribbonServerList&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;ZoneAwareLoadBalancer&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="281.13" y="2005" width="208.87" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--100" target="ezDLcKFUGdAhIEAtUIj--102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--104" value="&lt;font color=&quot;#ff0000&quot;&gt;enableAndInitLearnNewServersFeature();&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--103">
+          <mxGeometry x="-0.1579" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--100" value="&lt;font color=&quot;#ff0000&quot;&gt;restOfInit&lt;/font&gt;(clientConfig);" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="627.38" y="1917.5" width="155.57" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;dashed=1;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--102" target="ezDLcKFUGdAhIEAtUIj--113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--116" value="开启定时任务，不断从 nacos 中获取 serverList" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--114">
+          <mxGeometry x="-0.3642" y="-1" relative="1" as="geometry">
+            <mxPoint x="46" y="69" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--102" target="ezDLcKFUGdAhIEAtUIj--105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--123" value="立即调用一次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--120">
+          <mxGeometry x="-0.7045" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--102" value="serverListUpdater.start(&lt;font color=&quot;#ff0000&quot;&gt;updateAction&lt;/font&gt;);" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="592.75" y="2045" width="224.84" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--105" target="ezDLcKFUGdAhIEAtUIj--108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--105" value="updateListOfServers();" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2324.7099999999996" width="144.83" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" target="ezDLcKFUGdAhIEAtUIj--110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1101.1500000000005" y="2454.8571428571427" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--108" target="ezDLcKFUGdAhIEAtUIj--136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--108" value="servers = &lt;font color=&quot;#ff0000&quot;&gt;serverListImpl&lt;/font&gt;.getUpdatedListOfServers();" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="804.84" y="2424.71" width="295.16" height="60.29" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--110" target="ezDLcKFUGdAhIEAtUIj--124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--110" value="&lt;font color=&quot;#ff0000&quot;&gt;NacosServerList&lt;/font&gt;#getUpdatedListOfServers" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1194.17" y="2424.7099999999996" width="254.84" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--113" target="ezDLcKFUGdAhIEAtUIj--105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--113" value="&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;updateAction.doUpdate();&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="874.6300000000001" y="2214.7099999999996" width="154.83" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--124" target="ezDLcKFUGdAhIEAtUIj--126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--124" value="discoveryProperties.&lt;font color=&quot;#ff0000&quot;&gt;namingServiceInstance() .selectInstances&lt;/font&gt;(serviceId, group, true);" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1080.0000000000002" y="2525" width="482.42" height="60.29" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--126" value="&lt;font color=&quot;#ff0000&quot;&gt;hostReactor.getServiceInfo&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1217.61" y="2625" width="207.96" height="59.57" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;dashed=1;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--129" target="ezDLcKFUGdAhIEAtUIj--92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--129" target="ezDLcKFUGdAhIEAtUIj--140">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="3141.904761904762" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1610" y="1800" />
+              <mxPoint x="1610" y="2755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--129" value="BaseLoadBalancer#&lt;font color=&quot;#ff0000&quot;&gt;allServerList&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1237.01" y="1770" width="212.99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--136" target="ezDLcKFUGdAhIEAtUIj--138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--136" value="updateAllServerList(servers);" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="866.21" y="2525.43" width="172.42" height="59.86" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="ezDLcKFUGdAhIEAtUIj--138" target="ezDLcKFUGdAhIEAtUIj--140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--142" value="super.setServersList(lsrv);" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="ezDLcKFUGdAhIEAtUIj--141">
+          <mxGeometry x="-0.206" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--138" value="setServersList(ls);" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="892.4200000000001" y="2615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--140" value="allServerList = allServers;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="868.25" y="2725" width="167.58" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezDLcKFUGdAhIEAtUIj--146" value="request.apply(serviceInstance);" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="646.01" y="1770" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
