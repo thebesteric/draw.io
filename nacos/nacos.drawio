@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T17:29:51.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="mCOiAXI7fTtTbwkeRnVR" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-17T04:12:04.557Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="lqbxcgCzm3BBA0-rDwPp" version="15.9.6" type="github">
   <diagram id="hunALPwYAO61CZnnPAhh" name="Page-1">
-    <mxGraphModel dx="1905" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2145" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -214,13 +214,12 @@
         <mxCell id="zgKmjXe5RocedFzESMuj-56" value="&lt;font color=&quot;#ff0000&quot;&gt;service.init()&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;fontColor=#009900;rounded=0;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="2160" y="1720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zgKmjXe5RocedFzESMuj-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zgKmjXe5RocedFzESMuj-77" target="zgKmjXe5RocedFzESMuj-70" edge="1">
+        <mxCell id="zgKmjXe5RocedFzESMuj-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="eIaxBUfPHbvmFYsHHjmo-113" target="zgKmjXe5RocedFzESMuj-70" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2780.6" y="2030" as="sourcePoint" />
+            <mxPoint x="2676" y="1990" as="sourcePoint" />
             <mxPoint x="2675.6" y="2055" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2675.6" y="2010" />
-              <mxPoint x="2675.6" y="2010" />
+              <mxPoint x="2676" y="2080" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -245,10 +244,10 @@
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zgKmjXe5RocedFzESMuj-70" target="zgKmjXe5RocedFzESMuj-81" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2820.6" y="2310" as="targetPoint" />
+            <mxPoint x="2820.6" y="2366.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2830.6" y="2093" />
-              <mxPoint x="2830.6" y="2295" />
+              <mxPoint x="2830.6" y="2149.5" />
+              <mxPoint x="2830.6" y="2351.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -257,27 +256,30 @@
             <mxPoint x="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zgKmjXe5RocedFzESMuj-70" value="当前时间 - 最后一次心跳时间 &amp;gt; 15s" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="2558.1" y="2055" width="235" height="75" as="geometry" />
+        <mxCell id="zgKmjXe5RocedFzESMuj-70" value="当前时间 - &lt;font color=&quot;#ff0000&quot;&gt;最后一次心跳&lt;/font&gt;时间 &amp;gt; &lt;font color=&quot;#ff0000&quot;&gt;15s&lt;/font&gt;&lt;br&gt;lastBeat" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2558.1" y="2111.5" width="231.9" height="78.5" as="geometry" />
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-71" value="instance.setHealthy(false);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="2583.1" y="2190" width="185" height="60" as="geometry" />
+          <mxGeometry x="2583.1" y="2246.5" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;jumpSize=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="zgKmjXe5RocedFzESMuj-77" target="eIaxBUfPHbvmFYsHHjmo-113">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-77" value="&lt;font color=&quot;#000000&quot;&gt;run();&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;rounded=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2615.6" y="1920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zgKmjXe5RocedFzESMuj-81" target="zgKmjXe5RocedFzESMuj-87" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2675.6" y="2350" as="targetPoint" />
+            <mxPoint x="2675.6" y="2406.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-81" value="循环所有实例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2625.6" y="2280" width="100" height="30" as="geometry" />
+          <mxGeometry x="2625.6" y="2336.5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=none;" parent="1" source="zgKmjXe5RocedFzESMuj-71" target="zgKmjXe5RocedFzESMuj-81" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2675.6" y="2265" as="sourcePoint" />
-            <mxPoint x="2675.6" y="2345" as="targetPoint" />
+            <mxPoint x="2675.6" y="2321.5" as="sourcePoint" />
+            <mxPoint x="2675.6" y="2401.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" parent="1" source="zgKmjXe5RocedFzESMuj-87" target="zgKmjXe5RocedFzESMuj-89" edge="1">
@@ -289,7 +291,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-87" value="instance.isMarked()" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="2598.1" y="2330" width="155" height="70" as="geometry" />
+          <mxGeometry x="2598.1" y="2386.5" width="155" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" parent="1" source="zgKmjXe5RocedFzESMuj-89" target="zgKmjXe5RocedFzESMuj-92" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -299,15 +301,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zgKmjXe5RocedFzESMuj-89" value="当前时间 - 最后一次心跳时间 &amp;gt; 30s" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="2553.1" y="2454" width="245" height="86" as="geometry" />
+        <mxCell id="zgKmjXe5RocedFzESMuj-89" value="当前时间 - &lt;font color=&quot;#ff0000&quot;&gt;最后一次心跳&lt;/font&gt;时间 &amp;gt; &lt;font color=&quot;#ff0000&quot;&gt;30s&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2553.1" y="2498" width="245" height="86" as="geometry" />
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zgKmjXe5RocedFzESMuj-92" target="zgKmjXe5RocedFzESMuj-77" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2450.6" y="2250" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2520.6" y="2620" />
-              <mxPoint x="2520.6" y="1950" />
+              <mxPoint x="2521" y="2664" />
+              <mxPoint x="2521" y="1950" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -320,10 +322,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-92" value="deleteIp(instance)&lt;br&gt;服务剔除" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="2615.6" y="2590" width="120" height="60" as="geometry" />
+          <mxGeometry x="2615.6" y="2634" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-96" value="&lt;font color=&quot;#ff0000&quot;&gt;DELETE /nacos/v1/ns/instance&lt;br&gt;&lt;/font&gt;删除实例" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="2810.6" y="2590" width="230" height="60" as="geometry" />
+          <mxGeometry x="2810.6" y="2634" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" parent="1" source="zgKmjXe5RocedFzESMuj-99" target="zgKmjXe5RocedFzESMuj-107" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -405,7 +407,7 @@
         <mxCell id="zgKmjXe5RocedFzESMuj-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF0000;" parent="1" source="zgKmjXe5RocedFzESMuj-125" target="zgKmjXe5RocedFzESMuj-104" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zgKmjXe5RocedFzESMuj-125" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(255 , 255 , 255)&quot;&gt;consistencyService.put(key, instances);&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="zgKmjXe5RocedFzESMuj-125" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;consistencyService.put&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(255 , 255 , 255)&quot;&gt;(key, instances);&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="1535" y="1560" width="240" height="35" as="geometry" />
         </mxCell>
         <mxCell id="zgKmjXe5RocedFzESMuj-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;dashed=1;" parent="1" source="zgKmjXe5RocedFzESMuj-128" target="zgKmjXe5RocedFzESMuj-134" edge="1">
@@ -461,14 +463,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2PmmHMX1RF9NsNLcKvbn-4" value="notifier&lt;font color=&quot;#000000&quot;&gt;.addTask(key, DataOperation.CHANGE);&lt;br&gt;添加一个 CHANGE 消息给线程&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="2PmmHMX1RF9NsNLcKvbn-4" value="notifier&lt;font color=&quot;#000000&quot;&gt;.addTask(key, &lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;DataOperation.CHANGE&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;);&lt;br&gt;添加一个 CHANGE 消息给线程&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1520" y="2120" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="2PmmHMX1RF9NsNLcKvbn-6" target="2PmmHMX1RF9NsNLcKvbn-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2PmmHMX1RF9NsNLcKvbn-6" value="&lt;font color=&quot;#000000&quot;&gt;Pair&amp;lt;String, DataOperation&amp;gt; pair = tasks.take();&lt;br&gt;&lt;/font&gt;handle(pair);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1515" y="2230" width="280" height="60" as="geometry" />
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-115" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;handle(pair);&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="2PmmHMX1RF9NsNLcKvbn-23">
+          <mxGeometry x="-0.35" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2PmmHMX1RF9NsNLcKvbn-6" value="&lt;font color=&quot;#000000&quot;&gt;Pair&amp;lt;String, DataOperation&amp;gt; pair = tasks.take();&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1515" y="2220" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-18" value="tasks.offer(Pair.with(datumKey, action));&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;BlockingQueue&amp;lt;Pair&amp;lt;String, DataOperation&amp;gt;&amp;gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1180" y="2120" width="295" height="60" as="geometry" />
@@ -498,7 +505,7 @@
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="2PmmHMX1RF9NsNLcKvbn-29" target="2PmmHMX1RF9NsNLcKvbn-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2PmmHMX1RF9NsNLcKvbn-29" value="updateIPs&lt;font color=&quot;#000000&quot;&gt;(value.getInstanceList(), KeyBuilder.matchEphemeralInstanceListKey(key));&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="2PmmHMX1RF9NsNLcKvbn-29" value="&lt;font color=&quot;#ff0000&quot;&gt;updateIPs&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;(value.getInstanceList(), KeyBuilder.matchEphemeralInstanceListKey(key));&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1410" y="2550" width="490" height="62" as="geometry" />
         </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2PmmHMX1RF9NsNLcKvbn-32" target="2PmmHMX1RF9NsNLcKvbn-37" edge="1">
@@ -511,6 +518,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;jumpSize=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="2PmmHMX1RF9NsNLcKvbn-32" target="eIaxBUfPHbvmFYsHHjmo-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-118" value="发布事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="eIaxBUfPHbvmFYsHHjmo-117">
+          <mxGeometry x="0.0893" y="3" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-32" value="clusterMap.get(entry.getKey())&lt;font color=&quot;#000000&quot;&gt;.&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;updateIps&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;(entryIPs, ephemeral);&lt;br&gt;clusterMap 是注册表中 Service 的一部分&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1470" y="2650" width="370" height="57" as="geometry" />
         </mxCell>
@@ -521,22 +536,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-37" value="ephemeral?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1575" y="2770" width="170" height="80" as="geometry" />
+          <mxGeometry x="1570" y="2760" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="2PmmHMX1RF9NsNLcKvbn-38" target="2PmmHMX1RF9NsNLcKvbn-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-38" value="ephemeralInstances = toUpdateInstances;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1532.5" y="2890" width="255" height="60" as="geometry" />
+          <mxGeometry x="1527.5" y="2880" width="255" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" parent="1" source="2PmmHMX1RF9NsNLcKvbn-40" target="2PmmHMX1RF9NsNLcKvbn-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-40" value="persistentInstances = toUpdateInstances;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1795" y="2780" width="255" height="60" as="geometry" />
+          <mxGeometry x="1790" y="2770" width="255" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-42" value="&lt;font color=&quot;#ff0000&quot;&gt;Cluster&lt;/font&gt;&lt;br&gt;注册表的一部分" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1600" y="2990" width="120" height="60" as="geometry" />
+          <mxGeometry x="1595" y="2980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-45" value="&lt;h1&gt;服务注册表：&lt;br&gt;&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(98 , 151 , 85) ; font-style: italic&quot;&gt;结构：Map(namespace, Map(group::serviceName, Service)).&lt;/span&gt;&lt;/pre&gt;&lt;/h1&gt;&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;Map&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;&amp;lt;&lt;/span&gt;String&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;Map&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;&amp;lt;&lt;/span&gt;String&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;, &lt;/span&gt;Service&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;serviceMap &lt;/span&gt;= &lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;new &lt;/span&gt;ConcurrentHashMap&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;&amp;lt;&amp;gt;()&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="60" y="40" width="590" height="110" as="geometry" />
@@ -1022,6 +1037,36 @@
         </mxCell>
         <mxCell id="eIaxBUfPHbvmFYsHHjmo-108" value="instance.&lt;font color=&quot;#ff0000&quot;&gt;setLastBeat&lt;/font&gt;(System.currentTimeMillis());&lt;br&gt;设置最后一次心跳时间" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="765" y="2724" width="290" height="62.75" as="geometry" />
+        </mxCell>
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-113" value="&lt;font color=&quot;#000000&quot;&gt;List&amp;lt;Instance&amp;gt; instances = &lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;service.allIPs(true)&lt;/font&gt;;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2545.6" y="2010" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;jumpSize=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="eIaxBUfPHbvmFYsHHjmo-116" target="eIaxBUfPHbvmFYsHHjmo-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-116" value="getPushService().serviceChanged(this);" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2198.1" y="2647.75" width="265" height="61.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;jumpSize=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;dashed=1;" edge="1" parent="1" source="eIaxBUfPHbvmFYsHHjmo-119" target="eIaxBUfPHbvmFYsHHjmo-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-119" value="this.applicationContext.&lt;font color=&quot;#ff0000&quot;&gt;publishEvent&lt;/font&gt;(new &lt;font color=&quot;#ff0000&quot;&gt;ServiceChangeEvent&lt;/font&gt;(this, service));" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2115.6" y="2770" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;jumpSize=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="eIaxBUfPHbvmFYsHHjmo-121" target="eIaxBUfPHbvmFYsHHjmo-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-121" value="PushService#&lt;font color=&quot;#ff0000&quot;&gt;onApplicationEvent&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2200.6" y="2893" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;jumpSize=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="eIaxBUfPHbvmFYsHHjmo-123" target="eIaxBUfPHbvmFYsHHjmo-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-123" value="udpPush(ackEntry);" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2270.6" y="3000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-125" value="udpSocket.send(ackEntry.origin);" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2220.9" y="3100" width="219.4" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
