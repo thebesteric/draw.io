@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T03:38:55.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" version="16.1.0" etag="i2Vucm9nUF70iVhL8wAH" type="github"><diagram id="zVCf7z2-2lD_RfVQa9jk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-31T04:31:11.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="KpNKkZToJYi5782mYxex" version="16.1.0" type="github">
+  <diagram id="zVCf7z2-2lD_RfVQa9jk" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-22" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iPwPXOduqcn6cmdAG-xF-1" target="iPwPXOduqcn6cmdAG-xF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-1" value="加载" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iPwPXOduqcn6cmdAG-xF-10" target="iPwPXOduqcn6cmdAG-xF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-10" value="验证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iPwPXOduqcn6cmdAG-xF-11" target="iPwPXOduqcn6cmdAG-xF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-11" value="准备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iPwPXOduqcn6cmdAG-xF-12" target="iPwPXOduqcn6cmdAG-xF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-12" value="解析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iPwPXOduqcn6cmdAG-xF-13" target="iPwPXOduqcn6cmdAG-xF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-13" value="初始化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="580" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iPwPXOduqcn6cmdAG-xF-14" target="iPwPXOduqcn6cmdAG-xF-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-14" value="使用&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%8A%A0%E8%BD%BD%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22100%22%20y%3D%22140%22%20width%3D%22100%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="440" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-15" value="卸载" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-23" value="连接" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="460" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iPwPXOduqcn6cmdAG-xF-24" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;ol class=&quot;ne-ol&quot; style=&quot;margin: 0 ; padding-left: 23px&quot;&gt;&lt;li id=&quot;e01dd4caaf4bbcb19580e761bf207161_li_0&quot;&gt;&lt;strong&gt;加载：&lt;/strong&gt;&lt;span class=&quot;ne-text&quot;&gt;将 .class 文件从磁盘读取到内存，通过类的全类名（包名+类名）加载到内存（方法区）&lt;/span&gt;&lt;/li&gt;&lt;li id=&quot;1376f3cae4efca749c3eb792e5f71e69_li_1&quot;&gt;&lt;strong&gt;连接&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ol class=&quot;ne-list-wrap&quot; style=&quot;margin: 0 ; padding-left: 23px ; list-style: none&quot;&gt;&lt;ol class=&quot;ne-ol&quot; style=&quot;margin: 0 ; padding-left: 23px ; list-style: lower-alpha&quot;&gt;&lt;li id=&quot;c0ce566b4e61ea8c8279e6e2c2a037f5_li_2&quot;&gt;&lt;strong&gt;验证：&lt;/strong&gt;&lt;span class=&quot;ne-text&quot;&gt;验证字节码文件的正确性&lt;/span&gt;&lt;/li&gt;&lt;li id=&quot;27653aad46146d265d1297ba561fbb0e_li_3&quot;&gt;&lt;strong&gt;准备：&lt;/strong&gt;&lt;span class=&quot;ne-text&quot;&gt;给类的静态变量分配内存（方法区），并赋予默认值，如：int a = 0，bool b = false&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;ol class=&quot;ne-list-wrap&quot; style=&quot;margin: 0 ; padding-left: 23px ; list-style: none&quot;&gt;&lt;ol start=&quot;3&quot; class=&quot;ne-ol&quot; style=&quot;margin: 0 ; padding-left: 23px ; list-style: lower-alpha&quot;&gt;&lt;li id=&quot;f4ca2ff20ffba264e961633a22337f1b_li_4&quot;&gt;&lt;strong&gt;解析：&lt;/strong&gt;&lt;span class=&quot;ne-text&quot;&gt;类装载器装入类所引用的其他所有类&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;ol start=&quot;3&quot; class=&quot;ne-ol&quot; style=&quot;margin: 0 ; padding-left: 23px&quot;&gt;&lt;li id=&quot;cc8603f72250bb791c1f71b9885f6fb0_li_5&quot;&gt;&lt;strong&gt;初始化：&lt;/strong&gt;&lt;span class=&quot;ne-text&quot;&gt;为类的静态变量赋予正确的初始值&lt;br&gt;&lt;/span&gt;（上述准备阶段时为静态变量赋予的是虚拟机默认的初始值，此处赋予的才是程序编写者为变量分配的真正的初始值），执行静态代码块&lt;/li&gt;&lt;li id=&quot;52f4c19d991faaf21ce4c8ce4be0ca44_li_6&quot;&gt;&lt;strong&gt;使用：&lt;/strong&gt;&lt;span class=&quot;ne-text&quot;&gt;创建对象...&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ol start=&quot;5&quot; class=&quot;ne-ol&quot; style=&quot;margin: 0 ; padding-left: 23px&quot;&gt;&lt;li id=&quot;da6a18f044af6619fe6505e78f0f56a7_li_7&quot;&gt;&lt;strong&gt;卸载：&lt;/strong&gt;&lt;span class=&quot;ne-text&quot;&gt;对象没有任何引用；程序正常执行结束；System.exit(0)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="880" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
