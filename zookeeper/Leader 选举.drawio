@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T08:42:41.910Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="CzDRLBpp7iuncffT64Rh" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-15T08:46:18.045Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="S_YaVuIfrXbJp7VsVo4s" version="16.5.6" type="github">
   <diagram id="eeuKYtuncwknBs3eNNl9" name="Page-1">
     <mxGraphModel dx="1186" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
         <mxCell id="-ZEZr_MwCLdf86qs8En4-6" value="第一轮选票&lt;br&gt;（2, 0) 选票胜" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="576" y="110" width="116" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S4009wVQ3V9HcJUpgxrX-1" value="myid = 1 的机器，投出去(1, 0)，收到的票是 (2, 0)，将收到的票与自己投出去的票进行对比，优先选择 zxid 大的为 leader，zxid 越大表示数据越新，如果 zxid 一样，则优先选择 myid 较大的作为 leader，推荐 (2, 0) 为 leader" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;perimeterSpacing=0;spacing=5;spacingTop=5;spacingLeft=5;spacingBottom=5;spacingRight=5;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="S4009wVQ3V9HcJUpgxrX-1" value="myid = 1 的机器，投出去(1, 0)，收到的票是 (2, 0)，将收到的票与自己投出去的票进行对比，优先选择 zxid 大的为 leader，zxid 越大表示数据越新，如果 zxid 一样，则优先选择 myid 较大的作为 leader，推荐 (2, 0) 为 leader，但是选票没有过半，所以不能确定 leader" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;perimeterSpacing=0;spacing=5;spacingTop=5;spacingLeft=5;spacingBottom=5;spacingRight=5;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="160" y="200" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="S4009wVQ3V9HcJUpgxrX-5" value="myid = 2 的机器，投出去(2, 0)，收到的票是 (1, 0)，还是推荐 (2, 0) 做为 leader" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;perimeterSpacing=0;spacing=5;spacingTop=5;spacingLeft=5;spacingBottom=5;spacingRight=5;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
