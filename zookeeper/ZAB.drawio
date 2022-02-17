@@ -1,11 +1,142 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T16:03:13.730Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="T1zxMJhN-lSMI8oHNw_f" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T16:15:13.550Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="_e9g-_kQFt4yxWI_9JAu" version="16.5.6" type="github">
   <diagram id="41MA47KTLDowxNQhfgmk" name="Page-1">
-    <mxGraphModel dx="1186" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1078" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SIBeIkNMfZndijGRM75Y-1" value="Leader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="340" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="O_qSc8QEX75YnrICupum-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF0000;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="SIBeIkNMfZndijGRM75Y-1" target="O_qSc8QEX75YnrICupum-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-5" value="1.1 发送 proposal&amp;nbsp;&lt;span style=&quot;font-family: monospace ; font-size: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22follower%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DHelvetica%3BfontSize%3D14%3BstrokeColor%3D%2382b366%3BfillColor%3D%23d5e8d4%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22140%22%20y%3D%22440%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="O_qSc8QEX75YnrICupum-3">
+          <mxGeometry x="0.2415" y="27" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF0000;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="SIBeIkNMfZndijGRM75Y-1" target="O_qSc8QEX75YnrICupum-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-6" value="1.1 发送 proposal&amp;nbsp;&lt;span style=&quot;font-family: monospace ; font-size: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22follower%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DHelvetica%3BfontSize%3D14%3BstrokeColor%3D%2382b366%3BfillColor%3D%23d5e8d4%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22140%22%20y%3D%22440%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="O_qSc8QEX75YnrICupum-4">
+          <mxGeometry x="0.2301" y="-25" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="SIBeIkNMfZndijGRM75Y-1" target="O_qSc8QEX75YnrICupum-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-24" value="3.1 leader 收到半数以上 ack 发送 commit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="O_qSc8QEX75YnrICupum-22">
+          <mxGeometry x="0.2261" relative="1" as="geometry">
+            <mxPoint x="16" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="SIBeIkNMfZndijGRM75Y-1" target="O_qSc8QEX75YnrICupum-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="SIBeIkNMfZndijGRM75Y-1" target="O_qSc8QEX75YnrICupum-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-27" value="3.2 发送 inform&lt;br&gt;让 observer 存储消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="O_qSc8QEX75YnrICupum-26">
+          <mxGeometry x="0.0452" y="2" relative="1" as="geometry">
+            <mxPoint x="38" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="SIBeIkNMfZndijGRM75Y-1" target="O_qSc8QEX75YnrICupum-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-32" value="3.4 回发节点变动通知给客户端&lt;br&gt;触发客户端监听事件&lt;br&gt;3.5 返回客户端命令操作结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="O_qSc8QEX75YnrICupum-31">
+          <mxGeometry x="0.4649" y="-1" relative="1" as="geometry">
+            <mxPoint x="49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SIBeIkNMfZndijGRM75Y-1" value="Leader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="360" y="261" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;curved=1;" edge="1" parent="1" source="O_qSc8QEX75YnrICupum-1" target="SIBeIkNMfZndijGRM75Y-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-19" value="2.2 返回 ack" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="O_qSc8QEX75YnrICupum-18">
+          <mxGeometry x="-0.0928" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-1" value="follower" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="160" y="471" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="O_qSc8QEX75YnrICupum-2" target="SIBeIkNMfZndijGRM75Y-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-21" value="2.2 返回 ack" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="O_qSc8QEX75YnrICupum-20">
+          <mxGeometry x="0.1367" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-2" value="follower" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="560" y="471" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="SIBeIkNMfZndijGRM75Y-1" target="SIBeIkNMfZndijGRM75Y-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="291" />
+              <mxPoint x="320" y="276" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-9" value="1.2 写本地数据文件&lt;br&gt;1.3 给自己发 ack" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="O_qSc8QEX75YnrICupum-8">
+          <mxGeometry x="0.0431" y="1" relative="1" as="geometry">
+            <mxPoint x="-69" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="SIBeIkNMfZndijGRM75Y-1" target="SIBeIkNMfZndijGRM75Y-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="291" />
+              <mxPoint x="520" y="276" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-11" value="3.3 commit：写自己的内存数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="O_qSc8QEX75YnrICupum-10">
+          <mxGeometry x="0.2689" y="4" relative="1" as="geometry">
+            <mxPoint x="115" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="O_qSc8QEX75YnrICupum-1" target="O_qSc8QEX75YnrICupum-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="561" />
+              <mxPoint x="190" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-13" value="2.1 写本地数据文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="O_qSc8QEX75YnrICupum-12">
+          <mxGeometry x="0.0727" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="O_qSc8QEX75YnrICupum-2" target="O_qSc8QEX75YnrICupum-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="561" />
+              <mxPoint x="650" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-17" value="2.1 写本地数据文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="O_qSc8QEX75YnrICupum-14">
+          <mxGeometry x="-0.2545" y="2" relative="1" as="geometry">
+            <mxPoint x="15" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-25" value="observer" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="650" y="121" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="O_qSc8QEX75YnrICupum-28" target="SIBeIkNMfZndijGRM75Y-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-30" value="create /dir data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="O_qSc8QEX75YnrICupum-29">
+          <mxGeometry x="-0.3679" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_qSc8QEX75YnrICupum-28" value="client" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;fontFamily=Helvetica;fontSize=14;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="80" y="111" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
