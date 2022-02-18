@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T08:38:18.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="2htEnoDBkEAqJr2XY7mO" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-18T10:04:22.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="qnvlIkxtytwqfA7MBEom" version="16.5.6" type="github">
   <diagram id="3I3BKLJQQbVaUrtWY86K" name="Page-1">
-    <mxGraphModel dx="1186" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,13 +11,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-2" value="&lt;span&gt;org.example.project&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="70" width="240" height="60" as="geometry" />
+          <mxGeometry x="860" y="160" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-3" target="MnBbfY_1qi8E_1JTe8cB-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-3" value="ClassPathBeanDefinitionScanner#&lt;font color=&quot;#ff0000&quot;&gt;scan&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="260" height="60" as="geometry" />
+          <mxGeometry x="850" y="290" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-5" target="MnBbfY_1qi8E_1JTe8cB-8">
           <mxGeometry relative="1" as="geometry" />
@@ -27,20 +27,23 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MnBbfY_1qi8E_1JTe8cB-5" value="doScan(basePackages);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="310" width="160" height="60" as="geometry" />
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-5" value="doScan(basePackages);" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="900" y="400" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-8" target="MnBbfY_1qi8E_1JTe8cB-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MnBbfY_1qi8E_1JTe8cB-8" value="findCandidateComponents(basePackage);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="450" width="260" height="60" as="geometry" />
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-81" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-8" target="MnBbfY_1qi8E_1JTe8cB-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-8" value="Set&amp;lt;BeanDefinition&amp;gt; candidates = findCandidateComponents(basePackage);" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="850" y="540" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-14" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-11" target="MnBbfY_1qi8E_1JTe8cB-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-11" value="scanCandidateComponents(basePackage);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="585" y="190" width="260" height="60" as="geometry" />
+          <mxGeometry x="1365" y="280" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-16" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-13" target="MnBbfY_1qi8E_1JTe8cB-15">
           <mxGeometry relative="1" as="geometry" />
@@ -51,7 +54,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-13" value="&lt;div&gt;String packageSearchPath = ResourcePatternResolver.CLASSPATH_ALL_URL_PREFIX +&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;resolveBasePackage(basePackage) + &#39;/&#39; + this.resourcePattern;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="330" width="370" height="60" as="geometry" />
+          <mxGeometry x="1310" y="420" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-15" target="MnBbfY_1qi8E_1JTe8cB-19">
           <mxGeometry relative="1" as="geometry" />
@@ -62,7 +65,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-15" value="Resource[] resources = getResourcePatternResolver().getResources(packageSearchPath);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="527.5" y="450" width="375" height="60" as="geometry" />
+          <mxGeometry x="1307.5" y="540" width="375" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-23" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-19" target="MnBbfY_1qi8E_1JTe8cB-22">
           <mxGeometry relative="1" as="geometry" />
@@ -73,14 +76,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-19" value="MetadataReader metadataReader = getMetadataReaderFactory().getMetadataReader(resource);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="542.5" y="585" width="345" height="60" as="geometry" />
+          <mxGeometry x="1322.5" y="675" width="345" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-26" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-22" target="MnBbfY_1qi8E_1JTe8cB-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-34" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-22" target="MnBbfY_1qi8E_1JTe8cB-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="715" y="830" as="targetPoint" />
+            <mxPoint x="1495" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-40" value="符合候选 bean 的条件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="MnBbfY_1qi8E_1JTe8cB-34">
@@ -88,35 +91,35 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MnBbfY_1qi8E_1JTe8cB-22" value="isCandidateComponent(metadataReader)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="592.5" y="700" width="245" height="60" as="geometry" />
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-22" value="isCandidateComponent(metadataReader)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1372.5" y="790" width="245" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-28" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-25" target="MnBbfY_1qi8E_1JTe8cB-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-25" value="排除的&lt;br&gt;for (TypeFilter tf : this.excludeFilters)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="480" width="230" height="60" as="geometry" />
+          <mxGeometry x="1800" y="570" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-36" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-27" target="MnBbfY_1qi8E_1JTe8cB-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-27" value="包含的&lt;br&gt;for (TypeFilter tf : this.includeFilters)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1017.5" y="620" width="235" height="60" as="geometry" />
+          <mxGeometry x="1797.5" y="710" width="235" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-29" value="包含一个含有 @Component 注解的过滤器" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1252.5" y="565" width="260" height="20" as="geometry" />
+          <mxGeometry x="2032.5" y="655" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-30" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="MnBbfY_1qi8E_1JTe8cB-29" parent="1" source="MnBbfY_1qi8E_1JTe8cB-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1330" y="625" as="sourcePoint" />
+            <mxPoint x="2110" y="715" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-31" value="会排除掉 @Configuration 注解的类" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1252.5" y="430" width="220" height="20" as="geometry" />
+          <mxGeometry x="2032.5" y="520" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-32" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="MnBbfY_1qi8E_1JTe8cB-31" parent="1" source="MnBbfY_1qi8E_1JTe8cB-25">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1190" y="470" as="sourcePoint" />
+            <mxPoint x="1970" y="560" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-38" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-35" target="MnBbfY_1qi8E_1JTe8cB-37">
@@ -128,21 +131,142 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-35" value="isConditionMatch(metadataReader);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="620" width="215" height="60" as="geometry" />
+          <mxGeometry x="2110" y="710" width="215" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-37" value="metadata.isAnnotated(&lt;font color=&quot;#ff0000&quot;&gt;Conditional.class&lt;/font&gt;.getName())" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1286.25" y="740" width="302.5" height="60" as="geometry" />
+          <mxGeometry x="2066.25" y="830" width="302.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-45" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-41" target="MnBbfY_1qi8E_1JTe8cB-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-41" value="&lt;font color=&quot;#ff0000&quot;&gt;ScannedGenericBeanDefinition&lt;/font&gt; sbd = new ScannedGenericBeanDefinition(metadataReader);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="565" y="820" width="300" height="60" as="geometry" />
+          <mxGeometry x="1345" y="910" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-42" value="扫描出来的 bean&lt;br&gt;都是 ScannedgenericBeanDefinition 类型的" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="850" y="770" width="260" height="30" as="geometry" />
+          <mxGeometry x="1630" y="860" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-43" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="MnBbfY_1qi8E_1JTe8cB-42" parent="1" source="MnBbfY_1qi8E_1JTe8cB-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="860" y="810" as="sourcePoint" />
+            <mxPoint x="1640" y="900" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-47" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-44" target="MnBbfY_1qi8E_1JTe8cB-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-75" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-44" target="MnBbfY_1qi8E_1JTe8cB-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-77" value="加入 candidates 集合中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="MnBbfY_1qi8E_1JTe8cB-75">
+          <mxGeometry x="-0.1698" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-44" value="isCandidateComponent(sbd)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1387.5" y="1030" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-46" value="&lt;div&gt;(metadata.isIndependent() &amp;amp;&amp;amp; (metadata.isConcrete() ||&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;(metadata.isAbstract() &amp;amp;&amp;amp; metadata.hasAnnotatedMethods(Lookup.class.getName()))))&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1682.5" y="1025" width="510" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-49" value="&lt;div&gt;// 不是抽象类，如果是抽象类那么抽象类上必须有 @Lookup 注解&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;// metadata.isIndependent()：是否是一个顶级类、静态内部类（有效的）&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;// metadata.isConcrete()：非接口，非抽象类&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;// metadata.isAbstract() &amp;amp;&amp;amp; metadata.hasAnnotatedMethods(Lookup.class.getName())：如果是抽象类，那么必须要有 @Lookup 注解&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;// @Lookup 可以结合抽象类一起用，保证原型&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="910" width="740" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-50" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="MnBbfY_1qi8E_1JTe8cB-49" parent="1" source="MnBbfY_1qi8E_1JTe8cB-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1901" y="990" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-53" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-51" target="MnBbfY_1qi8E_1JTe8cB-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-51" value="&lt;font color=&quot;#000000&quot;&gt;refresh()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-55" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-52" target="MnBbfY_1qi8E_1JTe8cB-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-52" value="&lt;font color=&quot;#000000&quot;&gt;invokeBeanFactoryPostProcessors(beanFactory);&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="187.5" y="160" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-57" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-54" target="MnBbfY_1qi8E_1JTe8cB-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-54" value="&lt;font color=&quot;#000000&quot;&gt;PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(beanFactory, getBeanFactoryPostProcessors());&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="270" width="485" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-59" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-56" target="MnBbfY_1qi8E_1JTe8cB-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-60" value="postProcessor.postProcessBeanDefinitionRegistry(registry);" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="MnBbfY_1qi8E_1JTe8cB-59">
+          <mxGeometry x="0.0671" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-56" value="&lt;font color=&quot;#000000&quot;&gt;invokeBeanDefinitionRegistryPostProcessors&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF0000;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="198.75" y="380" width="267.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-62" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-58" target="MnBbfY_1qi8E_1JTe8cB-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-58" value="&lt;font color=&quot;#000000&quot;&gt;ConfigurationClassPostProcessor#postProcessBeanDefinitionRegistry&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#FF0000;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="133.75" y="525" width="397.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-64" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-61" target="MnBbfY_1qi8E_1JTe8cB-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-61" value="&lt;font color=&quot;#000000&quot;&gt;processConfigBeanDefinitions(registry);&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#FF0000;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="213.75" y="640" width="237.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-66" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-63" target="MnBbfY_1qi8E_1JTe8cB-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-63" value="&lt;font color=&quot;#ff0000&quot;&gt;parser.parse(candidates);&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=#6c8ebf;rounded=0;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="243.75" y="755" width="177.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-68" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-65" target="MnBbfY_1qi8E_1JTe8cB-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-65" value="processConfigurationClass(new ConfigurationClass(metadata, beanName), DEFAULT_EXCLUSION_FILTER);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="118.75" y="875" width="427.5" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-70" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-67" target="MnBbfY_1qi8E_1JTe8cB-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-67" value="sourceClass = doProcessConfigurationClass(configClass, sourceClass, filter);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="193.75" y="1000" width="277.5" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-72" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-69" target="MnBbfY_1qi8E_1JTe8cB-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-69" value="&lt;div&gt;// 增加一个默认的排除&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;scanner.addExcludeFilter(new AbstractTypeHierarchyTraversingFilter(false, false) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;@Override&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;protected boolean matchClassName(String className) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// 排除掉配置类&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;return declaringClass.equals(className);&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;});&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="1110" width="550" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-73" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-71" target="MnBbfY_1qi8E_1JTe8cB-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="879.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-71" value="scanner.doScan(StringUtils.toStringArray(basePackages));" style="whiteSpace=wrap;html=1;align=center;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="163.75" y="1300" width="337.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-78" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-74" target="MnBbfY_1qi8E_1JTe8cB-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="1180" />
+              <mxPoint x="1260" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-79" value="循环 resources" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="MnBbfY_1qi8E_1JTe8cB-78">
+          <mxGeometry x="-0.051" y="-7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-74" value="candidates.add(sbd);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1427.5" y="1150" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnBbfY_1qi8E_1JTe8cB-80" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
