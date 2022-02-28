@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T05:34:20.910Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="pBHHeVQNSxN0Pt1xX39M" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T08:25:03.601Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="im6mqW6SE1_nv0Kq0Qig" version="16.6.1" type="github">
   <diagram id="3I3BKLJQQbVaUrtWY86K" name="Page-1">
-    <mxGraphModel dx="2603" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2784" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1568,10 +1568,10 @@
             <mxPoint y="8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hyBAVhnCra8AMnPBzFOm-376" value="resolveEmbeddedValue((String) value);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-376" value="resolveEmbeddedValue((String) value);" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="4610" y="5840" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hyBAVhnCra8AMnPBzFOm-379" value="evaluateBeanDefinitionString(strVal, bd);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-379" value="evaluateBeanDefinitionString(strVal, bd);" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="4607.5" y="5960" width="235" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hyBAVhnCra8AMnPBzFOm-386" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="hyBAVhnCra8AMnPBzFOm-382" target="hyBAVhnCra8AMnPBzFOm-385">
@@ -1585,8 +1585,91 @@
         <mxCell id="hyBAVhnCra8AMnPBzFOm-382" value="Object multipleBeans = resolveMultipleBeans(descriptor, beanName, autowiredBeanNames, typeConverter);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="4122.5" y="5980" width="345" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-389" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="hyBAVhnCra8AMnPBzFOm-385" target="hyBAVhnCra8AMnPBzFOm-388">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hyBAVhnCra8AMnPBzFOm-385" value="Map&amp;lt;String, Object&amp;gt; matchingBeans = findAutowireCandidates(beanName, type, descriptor);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="4132.5" y="6110" width="325" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-391" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="hyBAVhnCra8AMnPBzFOm-388" target="hyBAVhnCra8AMnPBzFOm-390">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-392" value="matchingBeans.size() &amp;gt; 1&lt;br&gt;找多个符合条件的 bean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF0000;" vertex="1" connectable="0" parent="hyBAVhnCra8AMnPBzFOm-391">
+          <mxGeometry x="0.0756" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-412" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="hyBAVhnCra8AMnPBzFOm-388" target="hyBAVhnCra8AMnPBzFOm-409">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4090" y="6250" />
+              <mxPoint x="4090" y="6520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-388" value="判断" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="4255" y="6210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-396" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="hyBAVhnCra8AMnPBzFOm-390" target="hyBAVhnCra8AMnPBzFOm-395">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-397" value="判断 @Primary" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF0000;" vertex="1" connectable="0" parent="hyBAVhnCra8AMnPBzFOm-396">
+          <mxGeometry x="-0.079" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-410" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="hyBAVhnCra8AMnPBzFOm-390" target="hyBAVhnCra8AMnPBzFOm-409">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-390" value="autowiredBeanName = determineAutowireCandidate(matchingBeans, descriptor);" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="4127.5" y="6360" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-399" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="hyBAVhnCra8AMnPBzFOm-395" target="hyBAVhnCra8AMnPBzFOm-398">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-400" value="判断 @Priority 优先级&lt;br&gt;通常用于接口的实现类" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF0000;" vertex="1" connectable="0" parent="hyBAVhnCra8AMnPBzFOm-399">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-395" value="String primaryCandidate = determinePrimaryCandidate(candidates, requiredType);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4580" y="6360" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-404" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="hyBAVhnCra8AMnPBzFOm-398" target="hyBAVhnCra8AMnPBzFOm-403">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-405" value="byName 的实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF0000;" vertex="1" connectable="0" parent="hyBAVhnCra8AMnPBzFOm-404">
+          <mxGeometry x="-0.1333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-398" value="String priorityCandidate = determineHighestPriorityCandidate(candidates, requiredType);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4557.5" y="6490" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-407" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="hyBAVhnCra8AMnPBzFOm-403" target="hyBAVhnCra8AMnPBzFOm-406">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-408" value="匹配名称" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF0000;" vertex="1" connectable="0" parent="hyBAVhnCra8AMnPBzFOm-407">
+          <mxGeometry x="-0.1867" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-403" value="for (Map.Entry&amp;lt;String, Object&amp;gt; entry : candidates.entrySet())" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="4592.5" y="6610" width="285" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-411" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="hyBAVhnCra8AMnPBzFOm-406" target="hyBAVhnCra8AMnPBzFOm-409">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-406" value="matchesBeanName(candidateName, descriptor.getDependencyName())" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="4617.5" y="6730" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-414" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fontSize=12;fontColor=#FF0000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="hyBAVhnCra8AMnPBzFOm-409" target="hyBAVhnCra8AMnPBzFOm-364">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3620" y="5860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-409" value="Object result = instanceCandidate;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="4192.5" y="6490" width="205" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
