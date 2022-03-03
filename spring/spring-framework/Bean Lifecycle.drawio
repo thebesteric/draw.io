@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T08:22:32.026Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="QPYoG31muhNJlWZ21IhL" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T08:44:44.022Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="yGcM3EKFJ6GqYcjcnYlD" version="16.6.4" type="github">
   <diagram id="3I3BKLJQQbVaUrtWY86K" name="Page-1">
-    <mxGraphModel dx="2732" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3137" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2068,31 +2068,29 @@
         <mxCell id="IX5YNUGIn7uEieEimbGi-1" value="rawCandidates = beanClass.getDeclaredConstructors();" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-413" y="4615.76" width="219.38" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="IX5YNUGIn7uEieEimbGi-6" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-3" target="IX5YNUGIn7uEieEimbGi-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-451" y="4760" />
-              <mxPoint x="-451" y="4656" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-44" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-3" target="IX5YNUGIn7uEieEimbGi-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IX5YNUGIn7uEieEimbGi-31" value="循环查找" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-6">
-          <mxGeometry x="-0.0078" y="1" relative="1" as="geometry">
+        <mxCell id="IX5YNUGIn7uEieEimbGi-45" value="循环查找" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-44">
+          <mxGeometry x="0.0672" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-49" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-3" target="IX5YNUGIn7uEieEimbGi-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-3" value="for (Constructor&amp;lt;?&amp;gt; candidate : rawCandidates)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-441.65" y="4730" width="276.69" height="60" as="geometry" />
+          <mxGeometry x="-750" y="4617.35" width="276.69" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-5" target="IX5YNUGIn7uEieEimbGi-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IX5YNUGIn7uEieEimbGi-5" value="MergedAnnotation&amp;lt;?&amp;gt; ann = findAutowiredAnnotation(candidate);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-709.1999999999999" y="4630.76" width="223.3" height="50" as="geometry" />
+        <mxCell id="IX5YNUGIn7uEieEimbGi-5" value="MergedAnnotation&amp;lt;?&amp;gt; ann = findAutowiredAnnotation(candidate);" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1104.1999999999998" y="4622.35" width="223.3" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-12" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-9" target="IX5YNUGIn7uEieEimbGi-33">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-796" y="4760" as="targetPoint" />
+            <mxPoint x="-1191" y="4751.59" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-13" value="if (ann != null)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-12">
@@ -2109,63 +2107,76 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-9" value="判断" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-835.8000000000001" y="4615.76" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1230.8000000000002" y="4607.35" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-17" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-11" target="IX5YNUGIn7uEieEimbGi-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IX5YNUGIn7uEieEimbGi-11" value="boolean required = determineRequiredStatus(ann);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-892.45" y="4880" width="193.3" height="60" as="geometry" />
+        <mxCell id="IX5YNUGIn7uEieEimbGi-11" value="boolean required = determineRequiredStatus(ann);" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1287.45" y="4871.59" width="193.3" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-14" value="解析 required 属性" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-709.2" y="4840" width="130" height="20" as="geometry" />
+          <mxGeometry x="-1104.2" y="4831.59" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-15" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="IX5YNUGIn7uEieEimbGi-14" parent="1" source="IX5YNUGIn7uEieEimbGi-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-709.5" y="4919.92" as="sourcePoint" />
+            <mxPoint x="-1104.5" y="4911.51" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-16" target="IX5YNUGIn7uEieEimbGi-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-795.8181818181818" y="5118.921818181818" as="sourcePoint" />
-            <mxPoint x="-796" y="5100" as="targetPoint" />
+            <mxPoint x="-1190.8181818181818" y="5110.511818181818" as="sourcePoint" />
+            <mxPoint x="-1191" y="5091.59" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IX5YNUGIn7uEieEimbGi-20" value="if (required)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-19">
+        <mxCell id="IX5YNUGIn7uEieEimbGi-20" value="if (required)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-19">
           <mxGeometry x="-0.1776" y="1" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-77" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-16" target="IX5YNUGIn7uEieEimbGi-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1330" y="5001" />
+              <mxPoint x="-1330" y="5362" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-78" value="required == false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-77">
+          <mxGeometry x="-0.1782" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-16" value="判断" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-835.8000000000001" y="4968.9400000000005" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1230.8000000000002" y="4960.530000000001" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-24" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-18" target="IX5YNUGIn7uEieEimbGi-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-25" value="加入候选构造方法集合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-24">
           <mxGeometry x="-0.1533" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-18" value="requiredConstructor = candidate;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-897.45" y="5212.12" width="203.31" height="50" as="geometry" />
+          <mxGeometry x="-1292.45" y="5203.71" width="203.31" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-21" value="记录唯一的一个 required 为 true 的构造方法&lt;br&gt;给 requiredConstructor 赋值为 找到的构造方法" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-712.5" y="5152.12" width="280" height="30" as="geometry" />
+          <mxGeometry x="-1107.5" y="5143.71" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-22" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="IX5YNUGIn7uEieEimbGi-21" parent="1" source="IX5YNUGIn7uEieEimbGi-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1162.5" y="5156.04" as="sourcePoint" />
+            <mxPoint x="-1557.5" y="5147.63" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-23" value="candidates.add(candidate);" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-882.5" y="5356.04" width="173.3" height="60" as="geometry" />
+          <mxGeometry x="-1277.5" y="5331.59" width="173.3" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-27" value="defaultConstructor = candidate;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-1142.5" y="4745.76" width="190" height="60" as="geometry" />
+          <mxGeometry x="-1537.5" y="4737.35" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-32" value="throw new BeanCreationException" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-557" y="4949.97" width="162" height="50" as="geometry" />
+          <mxGeometry x="-952" y="4941.56" width="162" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-33" target="IX5YNUGIn7uEieEimbGi-32">
           <mxGeometry relative="1" as="geometry" />
@@ -2179,7 +2190,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-33" value="判断" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-835.85" y="4770.610000000001" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1230.85" y="4762.200000000001" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-37" target="IX5YNUGIn7uEieEimbGi-18">
           <mxGeometry relative="1" as="geometry" />
@@ -2193,14 +2204,110 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-37" value="判断" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-835.8000000000001" y="5095" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1230.8000000000002" y="5086.59" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-41" value="出现这个异常&lt;br&gt;是由于定义了多个 @Autowired 的构造方法&lt;br&gt;其中一个是 required 为 true&lt;br&gt;或有多个 required 为 true 的构造方法" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-414" y="4854.99" width="260" height="60" as="geometry" />
+          <mxGeometry x="-870" y="4845.01" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IX5YNUGIn7uEieEimbGi-42" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="IX5YNUGIn7uEieEimbGi-41" parent="1" source="IX5YNUGIn7uEieEimbGi-32">
+        <mxCell id="IX5YNUGIn7uEieEimbGi-42" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;entryX=0.363;entryY=1.009;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" target="IX5YNUGIn7uEieEimbGi-41" parent="1" source="IX5YNUGIn7uEieEimbGi-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-420" y="4910" as="sourcePoint" />
+            <mxPoint x="-815" y="4901.59" as="sourcePoint" />
+            <mxPoint x="-797.5" y="4889.9800000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-51" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-48" target="IX5YNUGIn7uEieEimbGi-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-48" value="结束循环" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-671.65" y="4717.5" width="121.65" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-53" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-50" target="IX5YNUGIn7uEieEimbGi-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-550.0049999999999" y="4960.53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-54" value="if (!candidates.isEmpty())" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-53">
+          <mxGeometry x="-0.2757" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-70" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-50" target="IX5YNUGIn7uEieEimbGi-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-71" value="rawCandidates.length == 1 &amp;amp;&amp;amp; rawCandidates[0].getParameterCount() &amp;gt; 0&lt;br&gt;表示只有一个含参数的构造方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-70">
+          <mxGeometry x="-0.2515" y="-8" relative="1" as="geometry">
+            <mxPoint x="61" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-72" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-50" target="IX5YNUGIn7uEieEimbGi-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-760.0000000000002" y="5210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-74" value="其他情况&lt;br&gt;返回一个空的数组" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-72">
+          <mxGeometry x="0.5116" y="8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-50" value="判断" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-590.0049999999999" y="4818.69" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-57" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-55" target="IX5YNUGIn7uEieEimbGi-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-58" value="if (requiredConstructor == null)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-57">
+          <mxGeometry x="-0.0604" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-67" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-55" target="IX5YNUGIn7uEieEimbGi-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-360" y="4982" />
+              <mxPoint x="-360" y="5329" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-68" value="if (requiredConstructor != null)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-67">
+          <mxGeometry x="-0.1087" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-55" value="判断" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-590.0049999999999" y="4941.5599999999995" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-62" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-56" target="IX5YNUGIn7uEieEimbGi-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-63" value="if (defaultConstructor != null)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-62">
+          <mxGeometry x="-0.209" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-56" value="判断" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-590.0049999999999" y="5062.12" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-65" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-61" target="IX5YNUGIn7uEieEimbGi-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-61" value="candidates.add(defaultConstructor);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="5180" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-64" value="candidateConstructors = candidates.toArray(new Constructor&amp;lt;?&amp;gt;[0]);" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="5299.06" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-69" value="candidateConstructors = new Constructor&amp;lt;?&amp;gt;[] {rawCandidates[0]};" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-319.99" y="4951.56" width="209.99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-73" value="candidateConstructors = new Constructor&amp;lt;?&amp;gt;[0];" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="5239" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-75" value="这里会返回多个候选构造方法，前提都是有 @Autowired 修饰&lt;br&gt;情况一：一个 required = true 的构造方法&lt;br&gt;情况二：一个默认构造方法，前提是加了 @Autowired&lt;br&gt;情况三：多个 required = false 的构造方法" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="5193.71" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-76" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="IX5YNUGIn7uEieEimbGi-75" parent="1" source="IX5YNUGIn7uEieEimbGi-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-400.0000000000002" y="5268.06" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
