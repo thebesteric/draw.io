@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T16:37:15.471Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="yTB93aHW4JZDXTl8nJlw" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-09T16:39:54.508Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="y5ZxafO2F3I_D2OcQjMh" version="16.6.4" type="github">
   <diagram id="3I3BKLJQQbVaUrtWY86K" name="Page-1">
     <mxGraphModel dx="3799" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -417,8 +417,8 @@
         <mxCell id="hyBAVhnCra8AMnPBzFOm-12" value="beanFactory.preInstantiateSingletons();" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="390" y="2220" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hyBAVhnCra8AMnPBzFOm-15" value="&lt;font color=&quot;#ff0000&quot;&gt;扫描阶段&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="536.49" y="210" width="132" height="50" as="geometry" />
+        <mxCell id="hyBAVhnCra8AMnPBzFOm-15" value="&lt;font color=&quot;#ff0000&quot;&gt;执行 BeanFactoryPostProcessor&lt;br&gt;完成扫描阶段&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="460.75" y="210" width="283.51" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hyBAVhnCra8AMnPBzFOm-16" value="&lt;font color=&quot;#ff0000&quot;&gt;加载阶段&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="541.75" y="2040" width="132" height="50" as="geometry" />
