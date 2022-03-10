@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T03:59:45.161Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="YcnBj1d9bjog3dfH7cBk" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T04:02:06.349Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="O9ANyCXutloR_yjpdCft" version="16.6.4" type="github">
   <diagram id="3I3BKLJQQbVaUrtWY86K" name="Page-1">
     <mxGraphModel dx="3799" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,7 +210,7 @@
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;curved=1;" parent="1" source="MnBbfY_1qi8E_1JTe8cB-54" target="MnBbfY_1qi8E_1JTe8cB-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IX5YNUGIn7uEieEimbGi-501" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-54" target="IX5YNUGIn7uEieEimbGi-500">
+        <mxCell id="IX5YNUGIn7uEieEimbGi-649" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="MnBbfY_1qi8E_1JTe8cB-54" target="IX5YNUGIn7uEieEimbGi-506">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MnBbfY_1qi8E_1JTe8cB-54" value="&lt;font color=&quot;#000000&quot;&gt;PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(beanFactory, getBeanFactoryPostProcessors());&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -3553,15 +3553,15 @@
         <mxCell id="IX5YNUGIn7uEieEimbGi-507" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-500" target="IX5YNUGIn7uEieEimbGi-506">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IX5YNUGIn7uEieEimbGi-500" value="&lt;span&gt;getBeanFactoryPostProcessors()&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="959.96" y="390" width="220.04" height="60" as="geometry" />
+        <mxCell id="IX5YNUGIn7uEieEimbGi-500" value="&lt;span&gt;getBeanFactoryPostProcessors()&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="959.96" y="340" width="220.04" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-502" value="此处通常返回为空&lt;br&gt;因为此处获取到的 BeanFactoryPostProcessor &lt;br&gt;都是通过 context.addBeanFactoryPostProcessor 手动添加进来的&lt;br&gt;因为还没有进行过扫描" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=0;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="290" width="380" height="60" as="geometry" />
+          <mxGeometry x="1050" y="240" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-503" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" target="IX5YNUGIn7uEieEimbGi-502" parent="1" source="IX5YNUGIn7uEieEimbGi-500">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="914" y="361" as="sourcePoint" />
+            <mxPoint x="914" y="311" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-512" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-506" target="IX5YNUGIn7uEieEimbGi-511">
