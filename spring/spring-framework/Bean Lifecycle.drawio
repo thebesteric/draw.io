@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T04:02:06.349Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="O9ANyCXutloR_yjpdCft" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T06:32:41.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="PwxSd6_0EMUVKQTI38sX" version="16.6.4" type="github">
   <diagram id="3I3BKLJQQbVaUrtWY86K" name="Page-1">
     <mxGraphModel dx="3799" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3726,6 +3726,11 @@
         <mxCell id="IX5YNUGIn7uEieEimbGi-567" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;startArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-565" target="IX5YNUGIn7uEieEimbGi-568">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1640" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1200" y="2320" />
+              <mxPoint x="1498" y="2320" />
+              <mxPoint x="1498" y="363" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-565" value="currentRegistryProcessors.clear();" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
@@ -3912,6 +3917,9 @@
         <mxCell id="IX5YNUGIn7uEieEimbGi-639" value="invokeBeanFactoryPostProcessors(registryProcessors, beanFactory);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2170" y="2571.88" width="410" height="58.12" as="geometry" />
         </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-651" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-641" target="IX5YNUGIn7uEieEimbGi-650">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-641" value="invokeBeanFactoryPostProcessors(regularPostProcessors, beanFactory);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2162.5" y="2690" width="425" height="60.94" as="geometry" />
         </mxCell>
@@ -3929,6 +3937,144 @@
         <mxCell id="IX5YNUGIn7uEieEimbGi-646" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="IX5YNUGIn7uEieEimbGi-645" parent="1" source="IX5YNUGIn7uEieEimbGi-641">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2670" y="2660" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-657" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-650" target="IX5YNUGIn7uEieEimbGi-656">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-650" value="&lt;div&gt;String[] postProcessorNames =&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;beanFactory.getBeanNamesForType(BeanFactoryPostProcessor.class, true, false);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2137.5" y="2830.71" width="475" height="58.59" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-652" value="获取 BeanFactoryPostProcessor 类型的 bean" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=0;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1949.2499999999998" y="2780" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-653" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="IX5YNUGIn7uEieEimbGi-652" parent="1" source="IX5YNUGIn7uEieEimbGi-650">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2105" y="2810" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-659" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-656" target="IX5YNUGIn7uEieEimbGi-658">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-656" value="for (String ppName : postProcessorNames)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2237.5" y="2950" width="275" height="61.4" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-661" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-658" target="IX5YNUGIn7uEieEimbGi-660">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-665" value="if (beanFactory.isTypeMatch(ppName, Ordered.class))" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-661">
+          <mxGeometry x="0.1029" relative="1" as="geometry">
+            <mxPoint x="22" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-663" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-658" target="IX5YNUGIn7uEieEimbGi-662">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-664" value="if (beanFactory.isTypeMatch(ppName, PriorityOrdered.class))" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="IX5YNUGIn7uEieEimbGi-663">
+          <mxGeometry x="-0.3012" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-667" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-658" target="IX5YNUGIn7uEieEimbGi-666">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-658" value="判断" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="3050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-678" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-660" target="IX5YNUGIn7uEieEimbGi-676">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-660" value="orderedPostProcessorNames.add(ppName);" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="3061.88" width="265" height="58.12" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-677" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-662" target="IX5YNUGIn7uEieEimbGi-676">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-662" value="priorityOrderedPostProcessors.add(beanFactory.getBean(ppName, BeanFactoryPostProcessor.class));" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2172.5" y="3215" width="405" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-679" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-666" target="IX5YNUGIn7uEieEimbGi-676">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-666" value="nonOrderedPostProcessorNames.add(ppName);" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="3060" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-668" value="执行过的 bean 会直接跳过" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=0;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2417.5" y="3020" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-669" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" target="IX5YNUGIn7uEieEimbGi-668" parent="1" source="IX5YNUGIn7uEieEimbGi-658">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2430" y="3058.43" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-670" value="存储实现了 @Order 接口的 BeanFactoryPostProcessor" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=0;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="3015" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-671" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" target="IX5YNUGIn7uEieEimbGi-670" parent="1" source="IX5YNUGIn7uEieEimbGi-660">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1767" y="3040" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-672" value="存储什么接口都没有实现的 BeanFactoryPostProcessor" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=0;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2645" y="3010" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-673" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="IX5YNUGIn7uEieEimbGi-672" parent="1" source="IX5YNUGIn7uEieEimbGi-666">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2742" y="3030" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-674" value="存储实现了 @PriorityOrder 接口的 BeanFactoryPostProcessor" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=0;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="3170" width="370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-675" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="IX5YNUGIn7uEieEimbGi-674" parent="1" source="IX5YNUGIn7uEieEimbGi-662">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2620" y="3210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-681" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-676" target="IX5YNUGIn7uEieEimbGi-680">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-676" value="end for" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2315" y="3330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-683" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-680" target="IX5YNUGIn7uEieEimbGi-682">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-680" value="&lt;div&gt;sortPostProcessors(priorityOrderedPostProcessors, beanFactory);&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;invokeBeanFactoryPostProcessors(priorityOrderedPostProcessors, beanFactory);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2315" y="3470" width="455" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-685" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-682" target="IX5YNUGIn7uEieEimbGi-684">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-682" value="&lt;div&gt;sortPostProcessors(orderedPostProcessors, beanFactory);&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;invokeBeanFactoryPostProcessors(orderedPostProcessors, beanFactory);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2313.75" y="3600" width="456.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-684" value="invokeBeanFactoryPostProcessors(nonOrderedPostProcessors, beanFactory);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2321.8700000000003" y="3734.99" width="438.13" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-686" value="执行实现了 @PriorityOrder 的 BeanFactoryPostProcessor 的&lt;br&gt;postProcessBeanFactory 方法&lt;span&gt;	&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=0;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="3410" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-687" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="IX5YNUGIn7uEieEimbGi-686" parent="1" source="IX5YNUGIn7uEieEimbGi-680">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2675" y="3440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-688" value="执行实现了 @Order 的 BeanFactoryPostProcessor 的&lt;br&gt;postProcessBeanFactory 方法&lt;span&gt;	&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=0;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="3549.99" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-689" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="IX5YNUGIn7uEieEimbGi-688" source="IX5YNUGIn7uEieEimbGi-682">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2745" y="3600" as="sourcePoint" />
+            <mxPoint x="2699.8888888888887" y="3580.333333333333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-690" value="执行实现了 BeanFactoryPostProcessor 的&lt;br&gt;postProcessBeanFactory 方法&lt;span&gt;	&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=0;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="3680" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IX5YNUGIn7uEieEimbGi-691" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="IX5YNUGIn7uEieEimbGi-690" source="IX5YNUGIn7uEieEimbGi-684">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2760" y="3720" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
