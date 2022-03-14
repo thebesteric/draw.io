@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T10:17:09.217Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="-zp19-6EK-Bekym71NmI" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T10:17:42.954Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="2EnQtp0PaFL8-KQOSHy5" version="17.0.0" type="github">
   <diagram id="3I3BKLJQQbVaUrtWY86K" name="Page-1">
     <mxGraphModel dx="3512" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5585,7 +5585,7 @@
           <mxGeometry x="6016.5" y="3468.49" width="247" height="63" as="geometry" />
         </mxCell>
         <mxCell id="il2h93wiExPliiq_iQxp-64" value="开始扫描包路径" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="5840" y="3330" width="120" height="20" as="geometry" />
+          <mxGeometry x="5875" y="3325" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="il2h93wiExPliiq_iQxp-65" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="il2h93wiExPliiq_iQxp-64" parent="1" source="il2h93wiExPliiq_iQxp-59">
           <mxGeometry relative="1" as="geometry">
@@ -5596,10 +5596,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="il2h93wiExPliiq_iQxp-66" value="Set&amp;lt;BeanDefinition&amp;gt; candidates = findCandidateComponents(basePackage);" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="6010" y="3579.99" width="260" height="60" as="geometry" />
+          <mxGeometry x="5920" y="3580" width="440" height="60" as="geometry" />
         </mxCell>
         <mxCell id="il2h93wiExPliiq_iQxp-68" value="找到所有 @Component 注解的类" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="5820" y="3537.5" width="210" height="20" as="geometry" />
+          <mxGeometry x="5800" y="3537" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="il2h93wiExPliiq_iQxp-69" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="il2h93wiExPliiq_iQxp-68" parent="1" source="il2h93wiExPliiq_iQxp-66">
           <mxGeometry relative="1" as="geometry">
