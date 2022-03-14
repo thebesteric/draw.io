@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T04:01:13.881Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="unjGKc0CiB12xP8NzUSv" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T04:02:11.581Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="Ndc8IsjLnr8S0B7oTUeE" version="17.0.0" type="github">
   <diagram id="3I3BKLJQQbVaUrtWY86K" name="Page-1">
     <mxGraphModel dx="3611" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4664,6 +4664,11 @@
         </mxCell>
         <mxCell id="il2h93wiExPliiq_iQxp-4" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;" edge="1" parent="1" source="IX5YNUGIn7uEieEimbGi-889" target="il2h93wiExPliiq_iQxp-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="il2h93wiExPliiq_iQxp-42" value="注册 BD" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="il2h93wiExPliiq_iQxp-4">
+          <mxGeometry x="-0.4574" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IX5YNUGIn7uEieEimbGi-889" value="this.reader.loadBeanDefinitions(configClasses);" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="3862.5" y="4000" width="274.99" height="60" as="geometry" />
