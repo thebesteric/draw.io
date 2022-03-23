@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T08:37:32.490Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="UxWv3PqOoe0eXpbd-Q51" version="17.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T09:37:31.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="LUMTcOMtFBn1tcOoryNx" version="17.1.4" type="github">
   <diagram id="3I3BKLJQQbVaUrtWY86K" name="Page-1">
     <mxGraphModel dx="3799" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6040,13 +6040,16 @@
             <mxPoint x="2729.9975000000004" y="6305" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-169" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-80" target="qc3zs3FgDZ1ffZKYfEB_-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qc3zs3FgDZ1ffZKYfEB_-80" value="List&amp;lt;Advisor&amp;gt; eligibleAdvisors = findAdvisorsThatCanApply(candidateAdvisors, beanClass, beanName);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1540.05" y="6310" width="419.99" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qc3zs3FgDZ1ffZKYfEB_-85" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-82" target="qc3zs3FgDZ1ffZKYfEB_-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-82" value="&lt;b&gt;AnnotationAwareAspectJAutoProxyCreator&lt;/b&gt;#findCandidateAdvisors" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-82" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;AnnotationAwareAspectJAutoProxyCreator&lt;/font&gt;&lt;/b&gt;#findCandidateAdvisors" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="2060.0099999999998" y="6170.01" width="389.98" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qc3zs3FgDZ1ffZKYfEB_-89" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-84" target="qc3zs3FgDZ1ffZKYfEB_-88">
@@ -6139,8 +6142,173 @@
         <mxCell id="qc3zs3FgDZ1ffZKYfEB_-109" value="判断" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="3182.81" y="6790" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-111" value="MetadataAwareAspectInstanceFactory factory =										new BeanFactoryAspectInstanceFactory(this.beanFactory, beanName);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="3064.5299999999997" y="6940" width="317.19" height="60" as="geometry" />
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-115" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-111" target="qc3zs3FgDZ1ffZKYfEB_-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-111" value="MetadataAwareAspectInstanceFactory factory =										new BeanFactoryAspectInstanceFactory(this.beanFactory, beanName);" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3025.07" y="6940" width="395.47" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-117" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=2;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-114" target="qc3zs3FgDZ1ffZKYfEB_-118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3499.6900000000005" y="7100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-161" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-114" target="qc3zs3FgDZ1ffZKYfEB_-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-114" value="List&amp;lt;Advisor&amp;gt; classAdvisors = this.advisorFactory.getAdvisors(factory);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3094.37" y="7070" width="256.88" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-120" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-118" target="qc3zs3FgDZ1ffZKYfEB_-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-129" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=2;dashed=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-118" target="qc3zs3FgDZ1ffZKYfEB_-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-118" value="for (Method method : getAdvisorMethods(aspectClass))" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="3515" y="7070" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-122" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-119" target="qc3zs3FgDZ1ffZKYfEB_-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-119" value="Advisor advisor = getAdvisor(method, lazySingletonAspectInstanceFactory, 0, aspectName);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3491.25" y="7193.75" width="312.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-124" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-121" target="qc3zs3FgDZ1ffZKYfEB_-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-125" value="if (advisor != null)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="qc3zs3FgDZ1ffZKYfEB_-124">
+          <mxGeometry x="-0.1548" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-121" value="判断" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="3607.5" y="7290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-127" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-123" target="qc3zs3FgDZ1ffZKYfEB_-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-123" value="advisors.add(advisor);" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3576.25" y="7430" width="142.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-159" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-126" target="qc3zs3FgDZ1ffZKYfEB_-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-126" value="end for" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="3587.5" y="7550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-133" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-128" target="qc3zs3FgDZ1ffZKYfEB_-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-128" value="ReflectionUtils.doWithMethods(aspectClass, methods::add, adviceMethodFilter);" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="3932.5" y="7070" width="257.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-130" value="获取所有方法&lt;br&gt;排除掉 @PointCut 的注解的方法，并完成排序" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="3507.5" y="7014" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-131" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeWidth=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" target="qc3zs3FgDZ1ffZKYfEB_-130" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3705" y="7040" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-132" value="&lt;span&gt;methods.sort(adviceMethodComparator);&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="3941.24" y="7202.5" width="238.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-134" value="排除掉 @PointCut 的注解的方法" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="4144.5" y="7019" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-135" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeWidth=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="qc3zs3FgDZ1ffZKYfEB_-134" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4112" y="7020" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-136" value="排序规则&lt;br&gt;Around.class, Before.class, After.class, AfterReturning.class, AfterThrowing.class" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="4150" y="7152.5" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-137" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeWidth=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="qc3zs3FgDZ1ffZKYfEB_-136" source="qc3zs3FgDZ1ffZKYfEB_-132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4171.125" y="7191" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-150" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-138" target="qc3zs3FgDZ1ffZKYfEB_-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-138" value="&lt;div&gt;AspectJExpressionPointcut expressionPointcut = getPointcut(&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;candidateAdviceMethod, aspectInstanceFactory.getAspectMetadata().getAspectClass());&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3939.99" y="7320" width="510.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-139" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-119" target="qc3zs3FgDZ1ffZKYfEB_-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-152" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-149" target="qc3zs3FgDZ1ffZKYfEB_-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-153" value="if (expressionPointcut == null)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="qc3zs3FgDZ1ffZKYfEB_-152">
+          <mxGeometry x="-0.1531" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-155" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-149" target="qc3zs3FgDZ1ffZKYfEB_-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-149" value="判断" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="4154.995" y="7430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-151" value="return null" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="3819.995" y="7440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-154" value="&lt;div&gt;return &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;new InstantiationModelAwarePointcutAdvisorImpl&lt;/font&gt;&lt;/b&gt;(expressionPointcut, candidateAdviceMethod,&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;this, aspectInstanceFactory, declarationOrderInAspect, aspectName);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="3956.24" y="7569" width="477.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-156" value="过滤含有&lt;br&gt;&amp;nbsp;@Pointcut, @Around, @Before, @After, @AfterReturning, @AfterThrowing&lt;br&gt;的方法" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="4350" y="7240" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-157" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeWidth=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="qc3zs3FgDZ1ffZKYfEB_-156" source="qc3zs3FgDZ1ffZKYfEB_-138">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4280.3025" y="7290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-158" value="return advisors;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3587.5" y="7670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-163" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-160" target="qc3zs3FgDZ1ffZKYfEB_-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-160" value="advisors.addAll(classAdvisors);" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3129.5299999999997" y="7193.75" width="187.19" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-165" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-162" target="qc3zs3FgDZ1ffZKYfEB_-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-162" value="end for" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="3163.1249999999995" y="7300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-164" value="return advisors;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="3163.1249999999995" y="7410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-166" value="进行筛选，找出合格的 Advisor&lt;br&gt;也就是这些 advisor 能不能作用到当前的 bean 上&lt;br&gt;（切点是否可以命中当前的 bean）" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="6240.01" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-167" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeWidth=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="qc3zs3FgDZ1ffZKYfEB_-166" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1512" y="6535" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-171" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-168" target="qc3zs3FgDZ1ffZKYfEB_-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-168" value="eligibleAdvisors = sortAdvisors(eligibleAdvisors);" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1655.07" y="6435" width="189.95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-170" value="return eligibleAdvisors;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1689.965" y="6550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-172" value="排序，使用 @Order 或 Ordered 接口进行排序" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1404.97" y="6390" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-173" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="qc3zs3FgDZ1ffZKYfEB_-172" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-168">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="6435" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
