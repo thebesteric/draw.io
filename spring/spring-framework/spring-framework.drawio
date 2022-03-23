@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T11:01:25.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="DcRQHHgr2nyzpJJKAF-k" version="17.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T11:19:28.850Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="dBAVp3BzUhZ59JZtLPwI" version="17.1.4" type="github">
   <diagram id="3I3BKLJQQbVaUrtWY86K" name="Page-1">
     <mxGraphModel dx="3559" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6419,8 +6419,20 @@
             <mxPoint x="1432" y="6960" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-211" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-207" target="qc3zs3FgDZ1ffZKYfEB_-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qc3zs3FgDZ1ffZKYfEB_-207" value="Advisor[] advisors = buildAdvisors(beanName, specificInterceptors);" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1016.87" y="7250" width="273.76" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-213" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="qc3zs3FgDZ1ffZKYfEB_-210" target="qc3zs3FgDZ1ffZKYfEB_-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-210" value="&lt;div&gt;proxyFactory.addAdvisors(advisors);&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;proxyFactory.setTargetSource(targetSource);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1020.63" y="7370" width="266.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3zs3FgDZ1ffZKYfEB_-212" value="&lt;font color=&quot;#ffffff&quot;&gt;return proxyFactory.getProxy(getProxyClassLoader());&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1015.63" y="7500" width="276.24" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
