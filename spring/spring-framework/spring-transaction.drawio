@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T17:15:21.181Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="MtBh0Wsx_RxlW6KISi5E" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T16:26:23.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="UBGfnqwtBbvk699t9r2X" version="17.2.4" type="github">
   <diagram id="kz3dH1U2wMBaOtRKHvNg" name="Page-1">
-    <mxGraphModel dx="2075" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2222" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,7 +245,10 @@
             <mxPoint x="-504.9999999999998" y="938" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4VrhSYovmqzg8rR9ZFnU-46" value="&lt;div&gt;@Override&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;@Nullable&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public Object &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;invoke&lt;/font&gt;&lt;/b&gt;(MethodInvocation invocation) throws Throwable {&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;// Work out the target class: may be {@code null}.&lt;/div&gt;&lt;div&gt;// The TransactionAttributeSource should be passed the target class&lt;/div&gt;&lt;div&gt;// as well as the method, which may be from an interface.&lt;/div&gt;&lt;div&gt;Class&amp;lt;?&amp;gt; targetClass = (invocation.getThis() != null ? AopUtils.getTargetClass(invocation.getThis()) : null);&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;// Adapt to TransactionAspectSupport&#39;s invokeWithinTransaction...&lt;/div&gt;&lt;div&gt;// ★★★ 执行代理逻辑&lt;/div&gt;&lt;div&gt;return invokeWithinTransaction(invocation.getMethod(), targetClass, new CoroutinesInvocationCallback() {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;@Override&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;@Nullable&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;public Object proceedWithInvocation() throws Throwable {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;return invocation.proceed();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;}&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;@Override&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;public Object getTarget() {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;return invocation.getThis();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;}&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;@Override&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;public Object[] getArguments() {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;return invocation.getArguments();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;}&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;});&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;spacing=6;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-55" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;strokeWidth=2;dashed=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-46" target="4VrhSYovmqzg8rR9ZFnU-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-46" value="&lt;div&gt;@Override&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;@Nullable&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public Object &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;invoke&lt;/font&gt;&lt;/b&gt;(MethodInvocation invocation) throws Throwable {&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;// Work out the target class: may be {@code null}.&lt;/div&gt;&lt;div&gt;// The TransactionAttributeSource should be passed the target class&lt;/div&gt;&lt;div&gt;// as well as the method, which may be from an interface.&lt;/div&gt;&lt;div&gt;Class&amp;lt;?&amp;gt; targetClass = (invocation.getThis() != null ? AopUtils.getTargetClass(invocation.getThis()) : null);&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;// Adapt to TransactionAspectSupport&#39;s invokeWithinTransaction...&lt;/div&gt;&lt;div&gt;// ★★★ 执行代理逻辑&lt;/div&gt;&lt;div&gt;return &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;invokeWithinTransaction&lt;/font&gt;&lt;/b&gt;(invocation.getMethod(), targetClass, new CoroutinesInvocationCallback() {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;@Override&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;@Nullable&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;public Object &lt;b&gt;proceedWithInvocation()&lt;/b&gt; throws Throwable {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;return &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;invocation.proceed();&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;}&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;@Override&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;public Object getTarget() {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;return invocation.getThis();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;}&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;@Override&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;public Object[] getArguments() {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;return invocation.getArguments();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;}&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;});&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;spacing=6;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="72.5" y="1596.25" width="635" height="387.5" as="geometry" />
         </mxCell>
         <mxCell id="4VrhSYovmqzg8rR9ZFnU-51" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-48" target="4VrhSYovmqzg8rR9ZFnU-50">
@@ -256,6 +259,193 @@
         </mxCell>
         <mxCell id="4VrhSYovmqzg8rR9ZFnU-50" value="&lt;div&gt;// 正常情况下进行 AOP 的入口&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;@Override&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public Object &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;postProcessAfterInitialization&lt;/font&gt;&lt;/b&gt;(@Nullable Object bean, String beanName) {&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;if (bean != null) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// 获取缓存 key&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Object cacheKey = getCacheKey(bean.getClass(), beanName);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// earlyProxyReferences：早期的代理对象引用：提前进行 AOP 的对象（循环依赖）会存在在这个集合中&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;if (this.earlyProxyReferences.remove(cacheKey) != bean) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;// ★★★ 没有提前进行 AOP，则在这里进行 AOP&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;return wrapIfNecessary(bean, beanName, cacheKey);&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;return bean;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;align=left;spacing=6;" vertex="1" parent="1">
           <mxGeometry x="1110" y="390" width="660" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-52" value="BeanPostProcessor" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="850" y="420" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-53" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="4VrhSYovmqzg8rR9ZFnU-52" parent="1" source="4VrhSYovmqzg8rR9ZFnU-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-59" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-54" target="4VrhSYovmqzg8rR9ZFnU-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-54" value="TransactionAspectSupport#invokeWithinTransaction" style="whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="225" y="2090" width="329.99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-56" value="代理逻辑" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1510" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-57" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="4VrhSYovmqzg8rR9ZFnU-56" parent="1" source="4VrhSYovmqzg8rR9ZFnU-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="1550" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-62" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-58" target="h3sMWkzl3CLincA4zuW1-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-40" y="2250" />
+              <mxPoint x="-40" y="1075" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-64" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-58" target="4VrhSYovmqzg8rR9ZFnU-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-58" value="TransactionAttributeSource tas = getTransactionAttributeSource();" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="205" y="2220" width="370.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-60" value="获取解析 @Transactional 注解的工具" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="38.13" y="2180" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-61" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="4VrhSYovmqzg8rR9ZFnU-60" parent="1" source="4VrhSYovmqzg8rR9ZFnU-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="73" y="2200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-68" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-63" target="4VrhSYovmqzg8rR9ZFnU-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-63" value="final TransactionAttribute txAttr = (tas != null ? tas.getTransactionAttribute(method, targetClass) : null);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="214.99" y="2360" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-65" value="解析方法或类上 @Transactional 注解信息&lt;br&gt;先解析方法，如果方法没有则解析类" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="2300" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-66" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="4VrhSYovmqzg8rR9ZFnU-65" parent="1" source="4VrhSYovmqzg8rR9ZFnU-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="302.4899999999998" y="2380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-69" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-67" target="4VrhSYovmqzg8rR9ZFnU-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-210" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-74" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-67" target="4VrhSYovmqzg8rR9ZFnU-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-67" value="final TransactionManager tm = determineTransactionManager(txAttr);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2500" width="400.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-71" value="PlatformTransactionManager" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2450" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-72" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="4VrhSYovmqzg8rR9ZFnU-71" parent="1" source="4VrhSYovmqzg8rR9ZFnU-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="2470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-78" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-73" target="4VrhSYovmqzg8rR9ZFnU-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-73" value="final String joinpointIdentification = methodIdentification(method, targetClass, txAttr);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="235" y="2630" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-75" value="根据当前执行的类中的某个方法生成一个唯一标志，这个标记会用做事务名&lt;br&gt;类名 + 方法 的名字" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="2580" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-76" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="4VrhSYovmqzg8rR9ZFnU-75" parent="1" source="4VrhSYovmqzg8rR9ZFnU-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-320" y="2520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-87" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-77" target="4VrhSYovmqzg8rR9ZFnU-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-77" value="TransactionInfo txInfo = createTransactionIfNecessary(ptm, txAttr, joinpointIdentification);" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;rounded=0;spacing=6;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="214.99" y="2770" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-79" value="创建事务，并得到事务信息，后面需要事务信息来进行提交或回滚&lt;br&gt;如果有必要就创建事物，这里就涉及到事物到传播机制到实现&lt;br&gt;TransactionInfo 表示一个逻辑事务，比如两个逻辑事务属于同一个物理事务" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="2700" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-80" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="4VrhSYovmqzg8rR9ZFnU-79" parent="1" source="4VrhSYovmqzg8rR9ZFnU-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="93" y="2740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-90" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-81" target="4VrhSYovmqzg8rR9ZFnU-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-102" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-81" target="4VrhSYovmqzg8rR9ZFnU-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="1477.6470588235295" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-230" y="3020" />
+              <mxPoint x="-230" y="1790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-81" value="retVal = invocation.proceedWithInvocation();" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="279.99" y="2990" width="220.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-83" value="执行具体的业务方法" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="159.99" y="2950" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-84" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="4VrhSYovmqzg8rR9ZFnU-83" parent="1" source="4VrhSYovmqzg8rR9ZFnU-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="94.99" y="2980" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-88" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-86" target="4VrhSYovmqzg8rR9ZFnU-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-86" value="try" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;rounded=0;spacing=6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="329.99" y="2880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-92" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-89" target="4VrhSYovmqzg8rR9ZFnU-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-89" value="catch" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;rounded=0;spacing=6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="329.995" y="3100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-94" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-91" target="4VrhSYovmqzg8rR9ZFnU-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-91" value="completeTransactionAfterThrowing(txInfo, ex);&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;throw ex;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="255.00000000000003" y="3210" width="270.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-96" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-93" target="4VrhSYovmqzg8rR9ZFnU-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-93" value="finally" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;rounded=0;spacing=6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="329.985" y="3320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-104" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-95" target="4VrhSYovmqzg8rR9ZFnU-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-95" value="cleanupTransactionInfo(txInfo);" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="280" y="3430" width="220.02" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-97" value="回滚" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="3150" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-98" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="4VrhSYovmqzg8rR9ZFnU-97" parent="1" source="4VrhSYovmqzg8rR9ZFnU-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="3190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-99" value="清除 ThreadLocal 中的事务信息，释放连接" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="48.13" y="3380" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-100" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="4VrhSYovmqzg8rR9ZFnU-99" parent="1" source="4VrhSYovmqzg8rR9ZFnU-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="3380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-105" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;strokeColor=#000000;strokeWidth=2;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="4VrhSYovmqzg8rR9ZFnU-103" target="4VrhSYovmqzg8rR9ZFnU-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="2640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-230" y="3600" />
+              <mxPoint x="-230" y="1887" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VrhSYovmqzg8rR9ZFnU-103" value="return. retVal;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;spacing=6;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="330.01" y="3570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
