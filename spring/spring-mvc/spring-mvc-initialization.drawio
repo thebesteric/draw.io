@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T16:28:10.506Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="U_AbyDEPPh0PMT-2mDvc" version="17.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T16:30:25.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="-XuPifFzYYvnGlhdhlPd" version="17.4.1" type="github">
   <diagram id="j21HDgzCXSbHb75ocCG3" name="Page-1">
     <mxGraphModel dx="2685" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -812,10 +812,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e-CRlnTBomWaG8tCO1K1-190" value="&lt;b&gt;@Import(&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;DelegatingWebMvcConfiguration&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;.class&lt;/font&gt;)&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="127.5" y="2710" width="292.5" height="60" as="geometry" />
+          <mxGeometry x="109" y="2710" width="292.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-CRlnTBomWaG8tCO1K1-224" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="e-CRlnTBomWaG8tCO1K1-192" target="e-CRlnTBomWaG8tCO1K1-207">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1670" y="2498.2608695652175" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-CRlnTBomWaG8tCO1K1-192" value="WebMvcConfigurationSupport" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180.63" y="2880" width="186.25" height="60" as="geometry" />
+          <mxGeometry x="162.13" y="2880" width="186.25" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-CRlnTBomWaG8tCO1K1-194" value="完成了九大组件 @Bean 方式的注册" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="346" y="2840" width="220" height="20" as="geometry" />
@@ -829,7 +834,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e-CRlnTBomWaG8tCO1K1-196" value="onRefresh(event.getApplicationContext());" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1335.94" y="2480" width="249.37" height="60" as="geometry" />
+          <mxGeometry x="1335.94" y="2470" width="249.37" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-CRlnTBomWaG8tCO1K1-202" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=2;dashed=1;" edge="1" parent="1" source="e-CRlnTBomWaG8tCO1K1-198" target="e-CRlnTBomWaG8tCO1K1-201">
           <mxGeometry relative="1" as="geometry" />
@@ -870,7 +875,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e-CRlnTBomWaG8tCO1K1-209" value="判断" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;spacing=6;" vertex="1" parent="1">
-          <mxGeometry x="1970.0049999999999" y="2620" width="80" height="80" as="geometry" />
+          <mxGeometry x="1970.0049999999999" y="2610" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="e-CRlnTBomWaG8tCO1K1-215" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeWidth=1;" edge="1" parent="1" source="e-CRlnTBomWaG8tCO1K1-211" target="e-CRlnTBomWaG8tCO1K1-214">
           <mxGeometry relative="1" as="geometry" />
@@ -893,11 +898,11 @@
           <mxGeometry x="1785.01" y="3000" width="449.98" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-CRlnTBomWaG8tCO1K1-219" value="从容纳器中找 HandlerMapping" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="2160" y="2700" width="200" height="20" as="geometry" />
+          <mxGeometry x="2190" y="2460" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="e-CRlnTBomWaG8tCO1K1-220" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeWidth=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="e-CRlnTBomWaG8tCO1K1-219" parent="1" source="e-CRlnTBomWaG8tCO1K1-211">
+        <mxCell id="e-CRlnTBomWaG8tCO1K1-220" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeWidth=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="e-CRlnTBomWaG8tCO1K1-219" parent="1" source="e-CRlnTBomWaG8tCO1K1-207">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2175" y="2730" as="sourcePoint" />
+            <mxPoint x="2190.0024999999996" y="2240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-CRlnTBomWaG8tCO1K1-221" value="从 web-mvc 包下的&lt;br&gt;DispatcherServlet.properties 文件中查找" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
