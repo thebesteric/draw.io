@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T10:58:14.171Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="fssqiuK8E6bZTj0ZEgFM" version="17.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T11:07:27.682Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="kU0uJREx6EM6SK7eL6nd" version="17.4.1" type="github">
   <diagram id="j21HDgzCXSbHb75ocCG3" name="Page-1">
     <mxGraphModel dx="2685" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -764,6 +764,14 @@
         </mxCell>
         <mxCell id="e-CRlnTBomWaG8tCO1K1-175" value="&lt;b style=&quot;text-align: left&quot;&gt;&lt;font&gt;FrameworkServlet.this.&lt;font color=&quot;#ff0000&quot;&gt;onApplicationEvent&lt;/font&gt;(event);&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1295.63" y="2370" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-CRlnTBomWaG8tCO1K1-179" value="监听 ContextRefreshedEvent 事件&lt;br&gt;完成了 MVC 九大组件的初始化工作" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1430.3200000000002" y="2308" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-CRlnTBomWaG8tCO1K1-180" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="e-CRlnTBomWaG8tCO1K1-179" parent="1" source="e-CRlnTBomWaG8tCO1K1-175">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1285" y="2330" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
