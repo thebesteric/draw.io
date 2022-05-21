@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T15:20:16.831Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="bBRgvtZUaaiu0i6Ljh8e" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-21T15:26:11.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="0ScusWLoBsA5hgQHkGxH" version="18.1.1" type="github">
   <diagram id="MTFICx_JF3s-7LjDrI5j" name="Page-1">
-    <mxGraphModel dx="2804" dy="1287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1957" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -492,6 +492,19 @@
         <mxCell id="FJIHUCayccTJmZpPxnte-45" value="redo log 日志文件&lt;br&gt;InnoDB 引擎特有&lt;br&gt;&lt;br&gt;name = ‘yyy&#39;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="525" y="2900" width="150" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="FJIHUCayccTJmZpPxnte-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FJIHUCayccTJmZpPxnte-48" target="FJIHUCayccTJmZpPxnte-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="3030" />
+              <mxPoint x="600" y="3030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FJIHUCayccTJmZpPxnte-73" value="【7】写入 commit 标记&lt;br&gt;到 redo 日志文件中&lt;br&gt;表示提交事物完成&lt;br&gt;该标记为了保证事物提交后&lt;br&gt;redo 与 binlog 数据一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FJIHUCayccTJmZpPxnte-72">
+          <mxGeometry x="0.249" y="1" relative="1" as="geometry">
+            <mxPoint x="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FJIHUCayccTJmZpPxnte-48" value="binlog 文件&lt;br&gt;属于 Server 层&lt;br&gt;&lt;br&gt;name = ‘yyy&#39;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="735" y="2903" width="150" height="80" as="geometry" />
         </mxCell>
@@ -524,9 +537,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FJIHUCayccTJmZpPxnte-70" value="binlog 主要用于恢复&lt;br&gt;数据库磁盘里的数据" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="870" y="3030" width="140" height="30" as="geometry" />
+          <mxGeometry x="870" y="2840" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FJIHUCayccTJmZpPxnte-71" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" target="FJIHUCayccTJmZpPxnte-70" parent="1" source="FJIHUCayccTJmZpPxnte-48">
+        <mxCell id="FJIHUCayccTJmZpPxnte-71" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="FJIHUCayccTJmZpPxnte-70" parent="1" source="FJIHUCayccTJmZpPxnte-48">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="715" y="3110" as="sourcePoint" />
           </mxGeometry>
