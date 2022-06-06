@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T05:50:29.105Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="G0wOYNOBwwPlSHWMex1c" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-06T05:58:58.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="2E-t2dkQXj9e7mJpw0-I" version="18.2.0" type="github">
   <diagram id="zVCf7z2-2lD_RfVQa9jk" name="Page-1">
     <mxGraphModel dx="1078" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -397,6 +397,38 @@
         </mxCell>
         <mxCell id="hN3UOtzz-SPdpC7iUw7O-64" value="Tomcat 7 以后合并了 common、catalina、shared&lt;br&gt;这三个类加载器，其实这三个&lt;br&gt;都是同一个实例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="395" y="2330" width="170" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="hN3UOtzz-SPdpC7iUw7O-65" value="可以被 Tomcat 以及 Webapp 访问" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;fontSize=12;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="766.5" y="2280" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hN3UOtzz-SPdpC7iUw7O-66" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;fontSize=12;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="hN3UOtzz-SPdpC7iUw7O-65" parent="1" source="hN3UOtzz-SPdpC7iUw7O-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="2290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hN3UOtzz-SPdpC7iUw7O-67" value="可以被 Tomcat 访问" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;fontSize=12;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2430" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hN3UOtzz-SPdpC7iUw7O-68" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;fontSize=12;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="hN3UOtzz-SPdpC7iUw7O-67" parent="1" source="hN3UOtzz-SPdpC7iUw7O-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="2448" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hN3UOtzz-SPdpC7iUw7O-69" value="Tomcat 不可见，所有 Webapp 可以访问" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;fontSize=12;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2430" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hN3UOtzz-SPdpC7iUw7O-70" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;fontSize=12;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" target="hN3UOtzz-SPdpC7iUw7O-69" parent="1" source="hN3UOtzz-SPdpC7iUw7O-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="875" y="2440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hN3UOtzz-SPdpC7iUw7O-71" value="仅对自己的 Webapp 可见" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=none;fontSize=12;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="375" y="2600" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hN3UOtzz-SPdpC7iUw7O-72" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;fontSize=12;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" target="hN3UOtzz-SPdpC7iUw7O-71" parent="1" source="hN3UOtzz-SPdpC7iUw7O-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="2620" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
