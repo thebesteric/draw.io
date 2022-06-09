@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T06:15:06.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="Cg7c6rzP182o6AM1ygjO" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T15:15:42.566Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="FbdQi6JQx-tRAQKIWx_w" version="18.2.0" type="github">
   <diagram id="1PFcjF8s6i4Pq3PZUs-d" name="Page-1">
     <mxGraphModel dx="2013" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,6 +47,9 @@
         </mxCell>
         <mxCell id="15FgrxkuGVqEY8UUjRXU-3" value="Parallel&lt;br&gt;Scavenge&lt;br&gt;（JDK 1.8 default）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="j8lpk0enRqLWVNlk2AlS-5" vertex="1">
           <mxGeometry x="380" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j8lpk0enRqLWVNlk2AlS-197" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=12;fontColor=#FF0000;startArrow=none;startFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="j8lpk0enRqLWVNlk2AlS-5" source="15FgrxkuGVqEY8UUjRXU-4" target="15FgrxkuGVqEY8UUjRXU-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="15FgrxkuGVqEY8UUjRXU-4" value="CMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="j8lpk0enRqLWVNlk2AlS-5" vertex="1">
           <mxGeometry x="60" y="270" width="120" height="60" as="geometry" />
@@ -1039,8 +1042,8 @@
             <mxPoint x="568" y="55" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j8lpk0enRqLWVNlk2AlS-192" value="清理垃圾" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;labelBackgroundColor=none;fontSize=12;strokeColor=#d6b656;" vertex="1" parent="j8lpk0enRqLWVNlk2AlS-196">
-          <mxGeometry x="705" y="10" width="80" height="20" as="geometry" />
+        <mxCell id="j8lpk0enRqLWVNlk2AlS-192" value="清理垃圾，会产生浮动垃圾" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;labelBackgroundColor=none;fontSize=12;strokeColor=#d6b656;" vertex="1" parent="j8lpk0enRqLWVNlk2AlS-196">
+          <mxGeometry x="655" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="j8lpk0enRqLWVNlk2AlS-193" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;labelBackgroundColor=none;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" target="j8lpk0enRqLWVNlk2AlS-192" parent="j8lpk0enRqLWVNlk2AlS-196" source="15FgrxkuGVqEY8UUjRXU-104">
           <mxGeometry relative="1" as="geometry">
@@ -1048,7 +1051,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j8lpk0enRqLWVNlk2AlS-194" value="清理标记" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;labelBackgroundColor=none;fontSize=12;strokeColor=#d6b656;" vertex="1" parent="j8lpk0enRqLWVNlk2AlS-196">
-          <mxGeometry x="834" y="10" width="80" height="20" as="geometry" />
+          <mxGeometry x="857" y="10" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="j8lpk0enRqLWVNlk2AlS-195" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;fontColor=#000000;labelBackgroundColor=none;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" target="j8lpk0enRqLWVNlk2AlS-194" parent="j8lpk0enRqLWVNlk2AlS-196" source="j8lpk0enRqLWVNlk2AlS-184">
           <mxGeometry relative="1" as="geometry">
