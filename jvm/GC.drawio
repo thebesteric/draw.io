@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-27T06:29:53.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="OXxdBSqHx0KD9Ipr1gN7" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-27T10:57:29.686Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="oKkriY4Ud4N0elRzQVsV" version="20.0.1" type="github">
   <diagram id="1PFcjF8s6i4Pq3PZUs-d" name="Page-1">
     <mxGraphModel dx="2013" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1350,7 +1350,7 @@
         <mxCell id="GqL2J9RJOxx1FkS2PBXy-91" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="346" y="2089.5" width="20" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="GqL2J9RJOxx1FkS2PBXy-92" value="并发标记" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontStyle=1;fontColor=#3399FF;" vertex="1" parent="1">
+        <mxCell id="GqL2J9RJOxx1FkS2PBXy-92" value="并发标记&lt;br&gt;非首次：对象重定位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontStyle=1;fontColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="200" y="2039.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GqL2J9RJOxx1FkS2PBXy-103" value="初始标记" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontStyle=1;fontColor=#3399FF;" vertex="1" parent="1">
