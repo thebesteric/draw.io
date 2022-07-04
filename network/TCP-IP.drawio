@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T11:16:16.214Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="QyE64wH-AYXqHVlRg6tt" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T14:49:15.395Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="md-QC1iZM4cFOBSv3_EI" version="20.0.4" type="github">
   <diagram id="EqkMN6x5gmmCwvLWcZxL" name="Page-1">
     <mxGraphModel dx="1318" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -502,39 +502,45 @@
           <mxGeometry x="45" y="340" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gdBhO-j0hfEyFmwO9zqc-177" value="服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=0;fontSize=14;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1052.5" y="2800" width="210" height="630" as="geometry" />
+          <mxGeometry x="1052.5" y="2800" width="240" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="gdBhO-j0hfEyFmwO9zqc-183" value="SYN_RECD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;fontColor=#000000;" vertex="1" parent="gdBhO-j0hfEyFmwO9zqc-177">
-          <mxGeometry x="118.5" y="320" width="90" height="30" as="geometry" />
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-183" value="SYN_RECD" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;" vertex="1" parent="gdBhO-j0hfEyFmwO9zqc-177">
+          <mxGeometry x="138.5" y="320" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gdBhO-j0hfEyFmwO9zqc-186" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=0;fontSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="gdBhO-j0hfEyFmwO9zqc-177">
-          <mxGeometry x="98.75" y="130" width="10" height="40" as="geometry" />
+          <mxGeometry x="115" y="130" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gdBhO-j0hfEyFmwO9zqc-192" value="SYN == 1" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;" vertex="1" parent="gdBhO-j0hfEyFmwO9zqc-177">
-          <mxGeometry x="118.5" y="135" width="70" height="30" as="geometry" />
+          <mxGeometry x="138.5" y="135" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gdBhO-j0hfEyFmwO9zqc-185" value="ESTABLISHED" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;fontColor=#000000;" vertex="1" parent="gdBhO-j0hfEyFmwO9zqc-177">
-          <mxGeometry x="118.5" y="560" width="110" height="30" as="geometry" />
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-185" value="ESTABLISHED" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;" vertex="1" parent="gdBhO-j0hfEyFmwO9zqc-177">
+          <mxGeometry x="138.5" y="560" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gdBhO-j0hfEyFmwO9zqc-195" value="ACK == 1&lt;br&gt;ack == K + 1" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;" vertex="1" parent="gdBhO-j0hfEyFmwO9zqc-177">
-          <mxGeometry x="118.5" y="500" width="91.5" height="40" as="geometry" />
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-195" value="ACK == 1&lt;br&gt;ack_no == K + 1" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;" vertex="1" parent="gdBhO-j0hfEyFmwO9zqc-177">
+          <mxGeometry x="138.5" y="500" width="121.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gdBhO-j0hfEyFmwO9zqc-180" value="SYN_SENT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="722.5" y="2923" width="90" height="30" as="geometry" />
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-194" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=0;fontSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="gdBhO-j0hfEyFmwO9zqc-177">
+          <mxGeometry x="115" y="490.5" width="10" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="gdBhO-j0hfEyFmwO9zqc-181" value="SYN = 1，ACK = 1，ack = &lt;font color=&quot;#00cc00&quot;&gt;&lt;b&gt;J + 1&lt;/b&gt;&lt;/font&gt;，seq = &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;K&lt;/font&gt;&lt;/b&gt;&lt;br&gt;针对客户端的 SYN 的确认应答&lt;br&gt;并建立连接请求" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;sketch=0;fontSize=14;fontColor=#000000;strokeWidth=2;" edge="1" parent="1" source="gdBhO-j0hfEyFmwO9zqc-177">
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-197" style="edgeStyle=none;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#FF0000;strokeWidth=2;" edge="1" parent="gdBhO-j0hfEyFmwO9zqc-177" source="gdBhO-j0hfEyFmwO9zqc-185" target="gdBhO-j0hfEyFmwO9zqc-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-180" value="SYN_SENT" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="713.75" y="2923" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-181" value="SYN = 1，ACK = 1，ack_no = &lt;font color=&quot;#00cc00&quot;&gt;&lt;b&gt;J + 1&lt;/b&gt;&lt;/font&gt;，seq_no = &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;K&lt;/font&gt;&lt;/b&gt;&lt;br&gt;针对客户端的 SYN 的确认应答&lt;br&gt;并建立连接请求" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;sketch=0;fontSize=14;fontColor=#000000;strokeWidth=2;" edge="1" parent="1" source="gdBhO-j0hfEyFmwO9zqc-177">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="1155.25" y="3062" as="sourcePoint" />
             <mxPoint x="822.3888888888891" y="3062" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gdBhO-j0hfEyFmwO9zqc-178" value="SYN = 1，seq = &lt;font color=&quot;#00cc00&quot;&gt;&lt;b&gt;J&lt;/b&gt;&lt;/font&gt;&lt;br&gt;请求建立连接" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;sketch=0;fontSize=14;fontColor=#000000;strokeWidth=2;exitX=0.49;exitY=0.155;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gdBhO-j0hfEyFmwO9zqc-176" target="gdBhO-j0hfEyFmwO9zqc-177">
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-178" value="SYN = 1，seq_no = &lt;font color=&quot;#00cc00&quot;&gt;&lt;b&gt;J&lt;/b&gt;&lt;/font&gt;&lt;br&gt;请求建立连接" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;sketch=0;fontSize=14;fontColor=#000000;strokeWidth=2;exitX=0.49;exitY=0.155;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gdBhO-j0hfEyFmwO9zqc-176" target="gdBhO-j0hfEyFmwO9zqc-177">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="870" y="2880" as="sourcePoint" />
             <mxPoint x="1090" y="2879" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gdBhO-j0hfEyFmwO9zqc-182" value="ACK = 1，ack = &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;K + 1&lt;/font&gt;&lt;/b&gt;&lt;br&gt;针对服务端的 SYN 的确认应答" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;sketch=0;fontSize=14;fontColor=#000000;strokeWidth=2;" edge="1" parent="1" target="gdBhO-j0hfEyFmwO9zqc-177">
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-182" value="ACK = 1，ack_no = &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;K + 1&lt;/font&gt;&lt;/b&gt;&lt;br&gt;针对服务端的 SYN 的确认应答" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;sketch=0;fontSize=14;fontColor=#000000;strokeWidth=2;" edge="1" parent="1" target="gdBhO-j0hfEyFmwO9zqc-177">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="822.8888888888891" y="3251" as="sourcePoint" />
             <mxPoint x="1155.25" y="3251" as="targetPoint" />
@@ -543,14 +549,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gdBhO-j0hfEyFmwO9zqc-184" value="ESTABLISHED" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="697.5" y="3360" width="110" height="30" as="geometry" />
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-184" value="ESTABLISHED" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="693.75" y="3360" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gdBhO-j0hfEyFmwO9zqc-193" value="ACK == 1&lt;br&gt;ack == J +1" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="717.5" y="3150" width="90" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="gdBhO-j0hfEyFmwO9zqc-194" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=0;fontSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1151.25" y="3291" width="10" height="59" as="geometry" />
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-193" value="ACK == 1&lt;br&gt;ack_no == J +1" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="686.25" y="3150" width="117.5" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
