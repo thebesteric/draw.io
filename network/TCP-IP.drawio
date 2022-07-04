@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T07:15:36.194Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ZNU5dNb5TIY3qqZU9oUl" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T08:42:00.907Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="yn55a_aQQWaKvRrIy6dP" version="20.0.4" type="github">
   <diagram id="EqkMN6x5gmmCwvLWcZxL" name="Page-1">
-    <mxGraphModel dx="1977" dy="1230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1318" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -398,6 +398,72 @@
         </mxCell>
         <mxCell id="gdBhO-j0hfEyFmwO9zqc-143" value="以太网电缆" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="230" y="2160" width="965" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-146" value="源 IP 地址&lt;br&gt;192.168.0.22" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="213" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-147" value="目标 IP 地址&lt;br&gt;192.168.0.22" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-148" value="TCP&lt;br&gt;6" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-149" value="源端口号&lt;br&gt;2001" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-150" value="目标端口号&lt;br&gt;80" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="692.5" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-151" value="数据" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="812.5" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-152" value="源 IP 地址&lt;br&gt;192.168.0.22" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="213" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-153" value="目标 IP 地址&lt;br&gt;192.168.0.22" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-154" value="TCP&lt;br&gt;6" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-155" value="源端口号&lt;br&gt;2002" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-156" value="目标端口号&lt;br&gt;80" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="692.5" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-157" value="数据" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="812.5" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-158" value="源 IP 地址&lt;br&gt;192.168.0.23" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="213" y="2650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-159" value="目标 IP 地址&lt;br&gt;192.168.0.22" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="2650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-160" value="TCP&lt;br&gt;6" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="2650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-161" value="源端口号&lt;br&gt;2001" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="2650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-162" value="目标端口号&lt;br&gt;80" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="692.5" y="2650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-163" value="数据" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=14;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="812.5" y="2650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-164" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=0;fontSize=14;fontColor=#000000;strokeWidth=1;fillColor=#00CC00;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="385" y="2270" width="20" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-165" value="IP 首部" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="365" y="2410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-166" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=0;fontSize=14;fontColor=#000000;strokeWidth=1;fillColor=#00CC00;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2330" width="20" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="gdBhO-j0hfEyFmwO9zqc-167" value="TCP 首部" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=14;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="650" y="2410" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
