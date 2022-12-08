@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T07:41:53.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="20.6.0" etag="wFbtvBD4T3t1dh6mW2UF" type="github"><diagram id="NjuSThY_xoUXsEEk3qNU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-08T08:12:00.021Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="20.6.0" etag="eBe-j15-fyJI9g201tIz" type="github">
+  <diagram id="XLlw53SdZ5ufhz4RMLFu" name="第 1 页">
+    <mxGraphModel dx="1186" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-1" target="1KmrAQo2uSv-iZAvplz1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-1" value="创建 Environment 对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-2" value="添加 Servlet、Servlet 容器、操作系统、JVM 环境变量&lt;br&gt;比如：java -jar -Dserver.port=8088 demo.jar&lt;br&gt;&lt;br&gt;1、servletConfigInitParams&lt;br&gt;2、servletContextInitParams&lt;br&gt;3、systemProperties&lt;br&gt;4、systemEnvrionment" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="72.5" width="370" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-3" target="1KmrAQo2uSv-iZAvplz1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-3" value="添加 DefaultProperties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-5" value="添加默认参数&lt;br&gt;比如：通过 SpringApplication 的 setDefaultProperties() 设置的&lt;br&gt;&lt;br&gt;1、servletConfigInitParams&lt;br&gt;2、servletContextInitParams&lt;br&gt;3、systemProperties&lt;br&gt;4、systemEnvrionment&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;5、defaultProperties&lt;/font&gt;&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="262.5" width="370" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-6" value="添加 DefaultProperties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="470" width="200" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
