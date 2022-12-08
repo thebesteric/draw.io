@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T08:12:00.021Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="20.6.0" etag="eBe-j15-fyJI9g201tIz" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-08T14:42:35.679Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="20.6.0" etag="ml7Cb7Zyc7GlcpFiB0e5" type="github">
   <diagram id="XLlw53SdZ5ufhz4RMLFu" name="第 1 页">
     <mxGraphModel dx="1186" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,23 +7,95 @@
         <mxCell id="1KmrAQo2uSv-iZAvplz1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-1" target="1KmrAQo2uSv-iZAvplz1-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1KmrAQo2uSv-iZAvplz1-1" value="创建 Environment 对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="90" width="200" height="90" as="geometry" />
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;dashed=1;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-1" target="1KmrAQo2uSv-iZAvplz1-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1KmrAQo2uSv-iZAvplz1-2" value="添加 Servlet、Servlet 容器、操作系统、JVM 环境变量&lt;br&gt;比如：java -jar -Dserver.port=8088 demo.jar&lt;br&gt;&lt;br&gt;1、servletConfigInitParams&lt;br&gt;2、servletContextInitParams&lt;br&gt;3、systemProperties&lt;br&gt;4、systemEnvrionment" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="400" y="72.5" width="370" height="125" as="geometry" />
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-1" value="创建 Environment 对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="59" y="77.5" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-2" value="添加 Servlet、Servlet 容器、操作系统、JVM 环境变量&lt;br&gt;比如：java -jar -Dserver.port=8088 demo.jar&lt;br&gt;&lt;br&gt;1、servletConfigInitParams&lt;br&gt;2、servletContextInitParams&lt;br&gt;3、systemProperties：-Dserver.port=8088&lt;br&gt;4、systemEnvrionment" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="369" y="60" width="431" height="125" as="geometry" />
         </mxCell>
         <mxCell id="1KmrAQo2uSv-iZAvplz1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-3" target="1KmrAQo2uSv-iZAvplz1-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;dashed=1;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-3" target="1KmrAQo2uSv-iZAvplz1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1KmrAQo2uSv-iZAvplz1-3" value="添加 DefaultProperties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="280" width="200" height="90" as="geometry" />
+          <mxGeometry x="59" y="267.5" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="1KmrAQo2uSv-iZAvplz1-5" value="添加默认参数&lt;br&gt;比如：通过 SpringApplication 的 setDefaultProperties() 设置的&lt;br&gt;&lt;br&gt;1、servletConfigInitParams&lt;br&gt;2、servletContextInitParams&lt;br&gt;3、systemProperties&lt;br&gt;4、systemEnvrionment&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;5、defaultProperties&lt;/font&gt;&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="400" y="262.5" width="370" height="125" as="geometry" />
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-5" value="添加默认参数&lt;br&gt;比如：通过 SpringApplication 的 setDefaultProperties() 设置的&lt;br&gt;&lt;br&gt;1、servletConfigInitParams&lt;br&gt;2、servletContextInitParams&lt;br&gt;3、systemProperties&lt;br&gt;4、systemEnvrionment&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;5、defaultProperties：springApplication.setDefaultProperties(map)&lt;/font&gt;&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="369" y="250" width="431" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="1KmrAQo2uSv-iZAvplz1-6" value="添加 DefaultProperties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="470" width="200" height="90" as="geometry" />
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;dashed=1;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-6" target="1KmrAQo2uSv-iZAvplz1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-6" target="1KmrAQo2uSv-iZAvplz1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-6" value="把命令行中的参数封装成 PropertySource，添加到 Environment 中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="59" y="457.5" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-8" value="添加运行时命令行中设置的参数&lt;br&gt;比如：java -jar --server.port=8088 demo.jar&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;1、commandLineArgs：---server.port=8088&lt;br&gt;&lt;/font&gt;&lt;/b&gt;2、servletConfigInitParams&lt;br&gt;3、servletContextInitParams&lt;br&gt;4、systemProperties&lt;br&gt;5、systemEnvrionment&lt;br&gt;6、defaultProperties" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="369" y="428.75" width="431" height="147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-12" target="1KmrAQo2uSv-iZAvplz1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-12" target="1KmrAQo2uSv-iZAvplz1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-12" value="添加一个 RandomValuePropertySource" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="59" y="650" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-14" value="添加运行时命令行中设置的参数&lt;br&gt;比如：java -jar --server.port=8088 demo.jar&lt;br&gt;&lt;br&gt;1、commandLineArgs&lt;br&gt;2、servletConfigInitParams&lt;br&gt;3、servletContextInitParams&lt;br&gt;4、systemProperties&lt;br&gt;5、systemEnvrionment&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;6、random&lt;br&gt;&lt;/font&gt;&lt;/b&gt;7、defaultProperties" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="369" y="621.25" width="431" height="147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-16" target="1KmrAQo2uSv-iZAvplz1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-16" target="1KmrAQo2uSv-iZAvplz1-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-16" value="从已有的环境变量中读取 spring.application.json 的 key&amp;nbsp;&lt;br&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AA%20RandomValuePropertySource%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2259%22%20y%3D%22650%22%20width%3D%22200%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="59" y="850" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-18" value="添加运行时命令行中设置的参数或 -D 启动参数&lt;br&gt;比如：java -jar --Dspring.application.json={k5: v5} demo.jar&lt;br&gt;&lt;br&gt;1、commandLineArgs&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;2、spring.application.json&lt;br&gt;&lt;/font&gt;&lt;/b&gt;3、servletConfigInitParams&lt;br&gt;4、servletContextInitParams&lt;br&gt;5、systemProperties&lt;br&gt;6、systemEnvrionment&lt;br&gt;7、random&lt;br&gt;8、defaultProperties" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="369" y="805.62" width="431" height="178.75" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-20" target="1KmrAQo2uSv-iZAvplz1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-20" target="1KmrAQo2uSv-iZAvplz1-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-20" value="如果是在 CLOUD_FOUNDRY 上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="59" y="1064.38" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-21" value="如果是在云平台上&lt;br&gt;&lt;br&gt;1、commandLineArgs&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;2、cap&lt;br&gt;&lt;/font&gt;&lt;/b&gt;3、spring.application.json&lt;br&gt;4、servletConfigInitParams&lt;br&gt;5、servletContextInitParams&lt;br&gt;6、systemProperties&lt;br&gt;7、systemEnvrionment&lt;br&gt;8、random&lt;br&gt;9、defaultProperties" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1020" width="431" height="178.75" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-24" target="1KmrAQo2uSv-iZAvplz1-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-24" target="1KmrAQo2uSv-iZAvplz1-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-24" value="ConfigDataEnvironmentPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43.5" y="1445" width="231" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-27" value="&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;默认配置文件路径：&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;locations.add(ConfigDataLocation.of(&quot;optional:classpath:/;optional:classpath:/config/&quot;));&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;locations.add(ConfigDataLocation.of(&quot;optional:file:./;optional:file:./config/;optional:file:./config/*/&quot;));&lt;/font&gt;&lt;/p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;spring.config.location：如果指定了，默认的会失效&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;spring.config.import：在默认的基础上会新增&lt;br&gt;spring.config.additional-location：&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;在默认的基础上会新增&lt;br&gt;spring.config.name：设置配置文件名，默认为 application&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;如果通过配置新增的：如：&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;-D&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(51, 51, 255); text-align: center;&quot;&gt;spring.config.import=&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;classpath:/test/&lt;/font&gt;&lt;font color=&quot;#3333ff&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 255); text-align: center;&quot;&gt;-D&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 255); text-align: center;&quot;&gt;spring.config.name=&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;app&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;则顺序为：&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;classpath:/test/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;file:./&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;file:./config&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;file:./config/*/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;classpath:/&lt;br&gt;classpath:/config/&lt;br&gt;&lt;br&gt;然后去各个目录下分别寻找：app.yaml，app.yml，&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;app.xml，&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;app.properties&lt;br&gt;最后会有一个倒序，所以 properties 文件的优先级就高于了 yaml 文件&lt;br&gt;&lt;br&gt;注意：此时解析完：并不会将 app.properties 加入环境变量&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;然后从解析出来的配置文件中，寻找 spring.profiles.active 对应的值，然后在按指定的值去找对应的文件，比如：dev&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;app-dev.yaml，app-dev.yml，&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;app-dev.xml，&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;app-dev.properties&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;最后会有一个倒序，所以 properties 文件的优先级就高于了 yaml 文件&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;注意：此时会将&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;app-dev.properties 加入环境变量，然后将&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;app.properties 在覆盖&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;如果：&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;app.properties 中设置了&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;spring.profiles.active=dev&lt;br&gt;但是&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;app-dev.properties 设置了&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;spring.config.active.on-profile=stg，则&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;app-dev.properties 不会生效&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1250" width="671" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="1KmrAQo2uSv-iZAvplz1-31" target="1KmrAQo2uSv-iZAvplz1-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-31" value="最终顺序" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="99" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1KmrAQo2uSv-iZAvplz1-33" value="01、commandLineArgs&lt;br&gt;02、cap&lt;br&gt;03、spring.application.json&lt;br&gt;04、servletConfigInitParams&lt;br&gt;05、servletContextInitParams&lt;br&gt;06、systemProperties&lt;br&gt;07、systemEnvrionment&lt;br&gt;08、random&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;09、application-dev.properties&lt;br&gt;10、application-dev.yaml&lt;br&gt;11、application.properties&lt;br&gt;12、application.yaml&lt;/font&gt;&lt;/b&gt;&lt;br&gt;13、defaultProperties" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1760.3100000000002" width="431" height="219.37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
