@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T04:18:03.703Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="KeHBeeRVLvsbJumkvNWr" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T13:13:15.811Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="E21B7y5nPgmt8RfGqrk7" version="20.6.2" type="github">
   <diagram id="hunALPwYAO61CZnnPAhh" name="Page-1">
     <mxGraphModel dx="2840" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -986,7 +986,7 @@
         <mxCell id="eIaxBUfPHbvmFYsHHjmo-141" value="synchronizer.send(server.getAddress(), msg);" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1368.7" y="610" width="257.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eIaxBUfPHbvmFYsHHjmo-144" value="&lt;font color=&quot;#ff0000&quot;&gt;GET nacos/v1/ns//operator/server/status&lt;/font&gt;&lt;br&gt;服务器状态同步" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-144" value="&lt;font color=&quot;#ff0000&quot;&gt;GET nacos/v1/ns/operator/server/status&lt;/font&gt;&lt;br&gt;服务器状态同步（是否上下线）" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1363.7" y="710" width="267.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eIaxBUfPHbvmFYsHHjmo-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;jumpSize=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="eIaxBUfPHbvmFYsHHjmo-146" target="eIaxBUfPHbvmFYsHHjmo-147" edge="1">
@@ -998,7 +998,7 @@
         <mxCell id="eIaxBUfPHbvmFYsHHjmo-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;jumpSize=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" parent="1" source="eIaxBUfPHbvmFYsHHjmo-147" target="eIaxBUfPHbvmFYsHHjmo-137" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eIaxBUfPHbvmFYsHHjmo-147" value="GlobalExecutor.registerServerStatusReporter(&lt;font color=&quot;#ff0000&quot;&gt;new ServerStatusReporter()&lt;/font&gt;, 2000); GlobalExecutor.registerServerInfoUpdater(&lt;font color=&quot;#ff0000&quot;&gt;new ServerInfoUpdater()&lt;/font&gt;);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-147" value="GlobalExecutor.registerServerStatusReporter(&lt;font color=&quot;#ff0000&quot;&gt;new ServerStatusReporter()&lt;/font&gt;, 2000); GlobalExecutor.registerServerInfoUpdater(&lt;font color=&quot;#ff0000&quot;&gt;new ServerInfoUpdater()&lt;/font&gt;);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;labelBackgroundColor=none;align=left;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1269.95" y="280" width="455" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eIaxBUfPHbvmFYsHHjmo-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;jumpSize=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eIaxBUfPHbvmFYsHHjmo-149" target="eIaxBUfPHbvmFYsHHjmo-153" edge="1">
@@ -1015,8 +1015,13 @@
         <mxCell id="eIaxBUfPHbvmFYsHHjmo-153" value="GlobalExecutor.scheduleServiceReporter(&lt;font color=&quot;#ff0000&quot;&gt;new ServiceReporter()&lt;/font&gt;, 60000, TimeUnit.MILLISECONDS);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1752.4999999999998" y="280" width="560" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="eIaxBUfPHbvmFYsHHjmo-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;jumpSize=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="eIaxBUfPHbvmFYsHHjmo-154" target="eIaxBUfPHbvmFYsHHjmo-156" edge="1">
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;jumpSize=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;dashed=1;" parent="1" source="eIaxBUfPHbvmFYsHHjmo-154" target="eIaxBUfPHbvmFYsHHjmo-156" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="284Kl3MK39Rh_IGzR82f-54" value="&lt;span style=&quot;caret-color: rgb(255, 0, 0); color: rgb(255, 0, 0); font-size: 11px;&quot;&gt;run()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" vertex="1" connectable="0" parent="eIaxBUfPHbvmFYsHHjmo-157">
+          <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="eIaxBUfPHbvmFYsHHjmo-154" value="&lt;font color=&quot;#ff0000&quot;&gt;ServiceReporter&lt;/font&gt;&lt;br&gt;服务信息报告者" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1957.5200000000002" y="375" width="149.95" height="60" as="geometry" />
@@ -1038,7 +1043,7 @@
         <mxCell id="eIaxBUfPHbvmFYsHHjmo-158" value="synchronizer.send(server.getAddress(), msg);" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1897.5200000000002" y="610" width="269.95" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eIaxBUfPHbvmFYsHHjmo-161" value="&lt;font color=&quot;#ff0000&quot;&gt;POST nacos/v1/ns//operator/service/status&lt;/font&gt;&lt;br&gt;&lt;span&gt;服务器状态同步&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="eIaxBUfPHbvmFYsHHjmo-161" value="&lt;font color=&quot;#ff0000&quot;&gt;POST nacos/v1/ns/operator/service/status&lt;/font&gt;&lt;br&gt;&lt;span&gt;服务器健康状态同步（服务是否健康）&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1902.5200000000002" y="707.5" width="259.95" height="65" as="geometry" />
         </mxCell>
         <mxCell id="eIaxBUfPHbvmFYsHHjmo-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;jumpSize=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="eIaxBUfPHbvmFYsHHjmo-163" target="eIaxBUfPHbvmFYsHHjmo-167" edge="1">
