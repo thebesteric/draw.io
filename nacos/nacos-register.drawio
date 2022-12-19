@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T03:50:18.277Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="J61yhkfuCuqakTED4Z7B" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T04:18:03.703Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="KeHBeeRVLvsbJumkvNWr" version="20.6.2" type="github">
   <diagram id="hunALPwYAO61CZnnPAhh" name="Page-1">
     <mxGraphModel dx="2840" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1196,7 +1196,7 @@
         <mxCell id="2PmmHMX1RF9NsNLcKvbn-101" value="instance-logistic-4" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="284Kl3MK39Rh_IGzR82f-1" vertex="1">
           <mxGeometry x="813.75" y="490" width="102.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="284Kl3MK39Rh_IGzR82f-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="284Kl3MK39Rh_IGzR82f-2" target="284Kl3MK39Rh_IGzR82f-8">
+        <mxCell id="284Kl3MK39Rh_IGzR82f-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=13;fontColor=#000000;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="284Kl3MK39Rh_IGzR82f-2" target="284Kl3MK39Rh_IGzR82f-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="284Kl3MK39Rh_IGzR82f-44" value="定时拉取&lt;br&gt;服务列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" vertex="1" connectable="0" parent="284Kl3MK39Rh_IGzR82f-43">
@@ -1204,11 +1204,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="284Kl3MK39Rh_IGzR82f-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="284Kl3MK39Rh_IGzR82f-2" target="284Kl3MK39Rh_IGzR82f-8">
+        <mxCell id="284Kl3MK39Rh_IGzR82f-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=13;fontColor=#000000;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="284Kl3MK39Rh_IGzR82f-2" target="284Kl3MK39Rh_IGzR82f-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="284Kl3MK39Rh_IGzR82f-46" value="服务发现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" vertex="1" connectable="0" parent="284Kl3MK39Rh_IGzR82f-45">
           <mxGeometry x="0.3881" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="284Kl3MK39Rh_IGzR82f-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="284Kl3MK39Rh_IGzR82f-2" target="284Kl3MK39Rh_IGzR82f-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="284Kl3MK39Rh_IGzR82f-53" value="服务变动&lt;br&gt;主动推送（通过 udp）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" vertex="1" connectable="0" parent="284Kl3MK39Rh_IGzR82f-52">
+          <mxGeometry x="-0.4133" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
