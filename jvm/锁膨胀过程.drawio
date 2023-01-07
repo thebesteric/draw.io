@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-07T16:12:16.823Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="20.6.2" etag="q6PFbR74N4QDs9wdMRKC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-07T16:16:05.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="20.6.2" etag="6qbVGm4fatyHRZR8lGpj" type="github">
   <diagram id="VyU8XYKOleGl__aWGSRd" name="第 1 页">
     <mxGraphModel dx="1186" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,6 +214,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Ho8h_6Hgs806xJqop72o-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="Ho8h_6Hgs806xJqop72o-76" target="Ho8h_6Hgs806xJqop72o-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho8h_6Hgs806xJqop72o-116" value="等待其他线程调用 unpark" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" vertex="1" connectable="0" parent="Ho8h_6Hgs806xJqop72o-108">
+          <mxGeometry x="-0.225" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ho8h_6Hgs806xJqop72o-76" value="调用 par&amp;nbsp;挂起" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="614" y="1930" width="97" height="60" as="geometry" />
         </mxCell>
@@ -263,6 +271,38 @@
         </mxCell>
         <mxCell id="Ho8h_6Hgs806xJqop72o-104" value="死循环&lt;br&gt;将当前线程封装为 ObjectWait 尝试入队&lt;br&gt;CAS 将 cxq 指向该节点" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="520" y="1570" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho8h_6Hgs806xJqop72o-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Ho8h_6Hgs806xJqop72o-107" target="Ho8h_6Hgs806xJqop72o-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho8h_6Hgs806xJqop72o-107" value="等待被唤醒" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=none;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="602.5" y="2070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho8h_6Hgs806xJqop72o-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Ho8h_6Hgs806xJqop72o-109" target="Ho8h_6Hgs806xJqop72o-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho8h_6Hgs806xJqop72o-112" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" vertex="1" connectable="0" parent="Ho8h_6Hgs806xJqop72o-111">
+          <mxGeometry x="-0.7333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho8h_6Hgs806xJqop72o-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ho8h_6Hgs806xJqop72o-109" target="Ho8h_6Hgs806xJqop72o-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960.5" y="1830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="950" y="2230" />
+              <mxPoint x="950" y="1530" />
+              <mxPoint x="660" y="1530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho8h_6Hgs806xJqop72o-115" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" vertex="1" connectable="0" parent="Ho8h_6Hgs806xJqop72o-114">
+          <mxGeometry x="-0.8678" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho8h_6Hgs806xJqop72o-109" value="TryLock&lt;br&gt;cas 操作设置 owner = 当前线程" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff2cc;labelBackgroundColor=none;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="570" y="2190" width="185" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
