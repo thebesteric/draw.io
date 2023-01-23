@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-23T15:37:00.864Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="f6zhpvGTfy7bi3sXeC1u" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-23T15:44:33.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="aJ8AwiEH8YhPtD_CbY9u" version="20.7.4" type="github">
   <diagram id="VyU8XYKOleGl__aWGSRd" name="第 1 页">
     <mxGraphModel dx="1194" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -797,7 +797,7 @@
         <mxCell id="mP5ub5O3HUvTZ0eZshle-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;fontColor=#000000;" parent="1" source="mP5ub5O3HUvTZ0eZshle-158" target="mP5ub5O3HUvTZ0eZshle-159" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mP5ub5O3HUvTZ0eZshle-161" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;QMode == 2&lt;br&gt;默认&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#FF0000;fontStyle=1" parent="mP5ub5O3HUvTZ0eZshle-160" vertex="1" connectable="0">
+        <mxCell id="mP5ub5O3HUvTZ0eZshle-161" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;QMode == 2&lt;br&gt;默认&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#FF0000;fontStyle=1" parent="mP5ub5O3HUvTZ0eZshle-160" vertex="1" connectable="0">
           <mxGeometry x="-0.2695" y="1" relative="1" as="geometry">
             <mxPoint x="30" y="-1" as="offset" />
           </mxGeometry>
@@ -827,7 +827,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zqLa8gJmHxIroLpfV1up-47" value="QMode == 0&lt;br&gt;什么都不做" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" vertex="1" connectable="0" parent="zqLa8gJmHxIroLpfV1up-46">
+        <mxCell id="zqLa8gJmHxIroLpfV1up-47" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;QMode == 0&lt;br&gt;默认&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" vertex="1" connectable="0" parent="zqLa8gJmHxIroLpfV1up-46">
           <mxGeometry x="-0.1455" y="-30" relative="1" as="geometry">
             <mxPoint x="-14" as="offset" />
           </mxGeometry>
@@ -929,7 +929,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mP5ub5O3HUvTZ0eZshle-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" parent="1" source="mP5ub5O3HUvTZ0eZshle-187" target="mP5ub5O3HUvTZ0eZshle-194" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="1980" />
+              <mxPoint x="1840" y="2200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="mP5ub5O3HUvTZ0eZshle-205" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" parent="mP5ub5O3HUvTZ0eZshle-204" vertex="1" connectable="0">
           <mxGeometry x="-0.4163" y="-2" relative="1" as="geometry">
@@ -942,14 +947,14 @@
         <mxCell id="mP5ub5O3HUvTZ0eZshle-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" parent="1" source="mP5ub5O3HUvTZ0eZshle-190" target="mP5ub5O3HUvTZ0eZshle-175" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mP5ub5O3HUvTZ0eZshle-190" value="将 cxq 队列倒置后插入 entryList" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1657.95" y="2080" width="120" height="60" as="geometry" />
+        <mxCell id="mP5ub5O3HUvTZ0eZshle-190" value="通过头插法&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;把 cxq 队列，加入到 entryList" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1623.91" y="2080" width="188.08" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mP5ub5O3HUvTZ0eZshle-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;fontColor=#000000;" parent="1" source="mP5ub5O3HUvTZ0eZshle-194" target="mP5ub5O3HUvTZ0eZshle-175" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mP5ub5O3HUvTZ0eZshle-194" value="将 cxq 队列插入 entryList" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1657.95" y="2170" width="120" height="60" as="geometry" />
+        <mxCell id="mP5ub5O3HUvTZ0eZshle-194" value="通过尾插法&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;把 cxq 队列，加入到 entryList&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="2170" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zqLa8gJmHxIroLpfV1up-2" value="wait 方法背后的队列：WaitSet &amp;nbsp;双向链表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="70" y="2400" width="360" height="30" as="geometry" />
