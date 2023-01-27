@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T07:22:35.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="GYAoSmj7rcKugkJkPnVw" version="16.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T16:05:26.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="D6iagyNt71xUikrPYcvc" version="20.8.10" type="github">
   <diagram id="gVKG4Lb1eDx2sXfoTRez" name="Page-1">
-    <mxGraphModel dx="1186" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,29 +158,76 @@
             <mxPoint x="560" y="655" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dYJtolZhyfs_VTTheeVZ-1" value="&lt;h1&gt;设计优势&lt;/h1&gt;&lt;p&gt;1、每个 Map 存储的 entry 数量变好，之前 entry 的数量是由 thread 数量决定的，现在是由 threadLocal 数量决定的&lt;/p&gt;&lt;p&gt;2、当 thread 销毁的时候，threadLocal 也会随之销毁，减少内存的使用&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="dYJtolZhyfs_VTTheeVZ-1" value="&lt;h1&gt;设计优势&lt;/h1&gt;&lt;p&gt;1、每个 Map 存储的 entry 数量变好，之前 entry 的数量是由 thread 数量决定的，现在是由 threadLocal 数量决定的&lt;/p&gt;&lt;p&gt;2、当 thread 销毁的时候，threadLocal 也会随之销毁，减少内存的使用&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="760" y="450" width="290" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="dYJtolZhyfs_VTTheeVZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dYJtolZhyfs_VTTheeVZ-2" target="dYJtolZhyfs_VTTheeVZ-3">
+        <mxCell id="dYJtolZhyfs_VTTheeVZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="dYJtolZhyfs_VTTheeVZ-2" target="dYJtolZhyfs_VTTheeVZ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dYJtolZhyfs_VTTheeVZ-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ThreadLocalMap&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;b&gt;+ table: Entry[]&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ size: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ threshold: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getEntry(ThreadLocal&amp;lt;?&amp;gt; key): Entry&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ set(ThreadLocal&amp;lt;?&amp;gt; key, Object value): void&lt;/p&gt;&amp;nbsp;+&amp;nbsp;&lt;span&gt;remove(ThreadLocal&amp;lt;?&amp;gt; key): void&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="dYJtolZhyfs_VTTheeVZ-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ThreadLocalMap&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;b&gt;+ table: Entry[]&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ size: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ threshold: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getEntry(ThreadLocal&amp;lt;?&amp;gt; key): Entry&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ set(ThreadLocal&amp;lt;?&amp;gt; key, Object value): void&lt;/p&gt;&amp;nbsp;+&amp;nbsp;&lt;span&gt;remove(ThreadLocal&amp;lt;?&amp;gt; key): void&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="151" y="970" width="270" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="dYJtolZhyfs_VTTheeVZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dYJtolZhyfs_VTTheeVZ-3" target="dYJtolZhyfs_VTTheeVZ-5">
+        <mxCell id="dYJtolZhyfs_VTTheeVZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="dYJtolZhyfs_VTTheeVZ-3" target="dYJtolZhyfs_VTTheeVZ-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dYJtolZhyfs_VTTheeVZ-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Entry&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ &lt;b&gt;referent: T&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ value: Object&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Entry(ThreadLocal&amp;lt;?&amp;gt; k, Object v)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="dYJtolZhyfs_VTTheeVZ-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Entry&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ &lt;b&gt;referent: T&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ value: Object&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Entry(ThreadLocal&amp;lt;?&amp;gt; k, Object v)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="513" y="990" width="270" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="dYJtolZhyfs_VTTheeVZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="dYJtolZhyfs_VTTheeVZ-5" target="dYJtolZhyfs_VTTheeVZ-7">
+        <mxCell id="dYJtolZhyfs_VTTheeVZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" source="dYJtolZhyfs_VTTheeVZ-5" target="dYJtolZhyfs_VTTheeVZ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dYJtolZhyfs_VTTheeVZ-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;WeakReference&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="dYJtolZhyfs_VTTheeVZ-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;WeakReference&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="571" y="890" width="154" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dYJtolZhyfs_VTTheeVZ-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt; abstract &amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Reference&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="dYJtolZhyfs_VTTheeVZ-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt; abstract &amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Reference&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="571" y="790" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--3" value="ThreadLocalMap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1335" y="290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="cThdk4_NGN4Mc3xpOMW--6" target="cThdk4_NGN4Mc3xpOMW--10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--6" value="threadLocals" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1172.5" y="360" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--8" value="Thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1177.5" y="290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="320" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="cThdk4_NGN4Mc3xpOMW--11" target="cThdk4_NGN4Mc3xpOMW--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--11" value="entry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1329" y="360" width="102" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--12" value="entry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1329" y="420" width="102" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--13" value="entry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1329" y="480" width="102" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="340" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--15" value="ThreadLocal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1489" y="370" width="102" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--16" value="Object" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1489" y="430" width="102" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--18" value="Entry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1495" y="310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--21" value="每个线程都有一个 threadLocals变量，其实就是 ThreadLocalMap 的实例，ThreadLocalMap 中有很多 entry，每个 entry 是有一个 key 为 ThreadLocal，value 为 Object 的键值对组成；&lt;br&gt;&lt;br&gt;一个&amp;nbsp;ThreadLocalMap 可以存放多个 entry。每个 entry 都维护者一个 ThreadLocal 键，所以我们可以创建多个不同的 ThreadLocal 给&amp;nbsp;ThreadLocalMap" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=0;spacingRight=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="130" width="490" height="125" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
