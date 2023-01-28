@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T16:05:26.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="D6iagyNt71xUikrPYcvc" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-28T06:56:31.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="9OkMbX1W2yTq7v8dDm0m" version="20.8.10" type="github">
   <diagram id="gVKG4Lb1eDx2sXfoTRez" name="Page-1">
     <mxGraphModel dx="1194" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,34 +10,34 @@
         <mxCell id="Zeel9Gy1W5gO2BfAkCkr-2" value="ThreadLocal" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="151" y="210" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-3" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="341" y="210" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-4" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="381" y="210" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-5" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="421" y="210" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zeel9Gy1W5gO2BfAkCkr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Zeel9Gy1W5gO2BfAkCkr-6" target="Zeel9Gy1W5gO2BfAkCkr-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-6" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="461" y="210" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-7" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="501" y="210" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-8" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="541" y="210" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-9" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="581" y="210" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-10" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="621" y="210" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-11" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="661" y="210" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zeel9Gy1W5gO2BfAkCkr-13" value="ThreadLocalMap" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -65,34 +65,34 @@
         <mxCell id="Zeel9Gy1W5gO2BfAkCkr-21" value="Thread" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="151" y="530" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-22" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="341" y="530" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-23" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="381" y="530" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-24" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="421" y="530" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zeel9Gy1W5gO2BfAkCkr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Zeel9Gy1W5gO2BfAkCkr-26" target="Zeel9Gy1W5gO2BfAkCkr-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-26" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="461" y="530" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-27" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="501" y="530" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-28" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="541" y="530" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-29" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="581" y="530" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-30" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="621" y="530" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Zeel9Gy1W5gO2BfAkCkr-31" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="661" y="530" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zeel9Gy1W5gO2BfAkCkr-32" value="ThreadLocalMap" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -226,7 +226,7 @@
         <mxCell id="cThdk4_NGN4Mc3xpOMW--18" value="Entry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1495" y="310" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cThdk4_NGN4Mc3xpOMW--21" value="每个线程都有一个 threadLocals变量，其实就是 ThreadLocalMap 的实例，ThreadLocalMap 中有很多 entry，每个 entry 是有一个 key 为 ThreadLocal，value 为 Object 的键值对组成；&lt;br&gt;&lt;br&gt;一个&amp;nbsp;ThreadLocalMap 可以存放多个 entry。每个 entry 都维护者一个 ThreadLocal 键，所以我们可以创建多个不同的 ThreadLocal 给&amp;nbsp;ThreadLocalMap" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=0;spacingRight=0;spacing=6;" vertex="1" parent="1">
+        <mxCell id="cThdk4_NGN4Mc3xpOMW--21" value="每个线程都有一个 threadLocals 变量，其实就是 ThreadLocalMap 的实例，ThreadLocalMap 中有很多 entry，每个 entry 是有一个 key 为 ThreadLocal，value 为 Object 的键值对组成；&lt;br&gt;&lt;br&gt;一个&amp;nbsp;ThreadLocalMap 可以存放多个 entry。每个 entry 都维护者一个 ThreadLocal 键，所以我们可以创建多个不同的 ThreadLocal 给&amp;nbsp;ThreadLocalMap" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=0;spacingRight=0;spacing=6;" vertex="1" parent="1">
           <mxGeometry x="1150" y="130" width="490" height="125" as="geometry" />
         </mxCell>
       </root>
