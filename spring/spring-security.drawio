@@ -465,18 +465,19 @@
         <mxCell id="EkfiKcfuoyYCpnU5cgj1-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.505;entryY=-0.15;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EkfiKcfuoyYCpnU5cgj1-66" target="EkfiKcfuoyYCpnU5cgj1-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r0zG9gZvDN9CVyKA6hXD-4" value="UsernamePasswordAuthenticationFilter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="250" y="3650" width="270" height="700" as="geometry" />
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-4" value="UsernamePasswordAuthenticationFilter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="172.54000000000002" y="3650" width="270" height="700" as="geometry" />
         </mxCell>
         <mxCell id="r0zG9gZvDN9CVyKA6hXD-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="r0zG9gZvDN9CVyKA6hXD-4">
-          <mxGeometry x="132.25" y="160" width="10" height="260" as="geometry" />
+          <mxGeometry x="132.25" y="160" width="10" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="r0zG9gZvDN9CVyKA6hXD-9" value="2、将请求封装为 Authentication，&lt;div&gt;实现类为 UsernamePasswordAuthenticationToken，&lt;/div&gt;&lt;div&gt;期中 authentication 属性为 false&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="r0zG9gZvDN9CVyKA6hXD-8" parent="r0zG9gZvDN9CVyKA6hXD-4">
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-9" value="2、将请求封装为 Authentication，&lt;div&gt;实现类为 UsernamePasswordAuthenticationToken，&lt;/div&gt;&lt;div&gt;其中 authenticated 属性为 false&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="r0zG9gZvDN9CVyKA6hXD-4">
           <mxGeometry x="0.0118" relative="1" as="geometry">
-            <mxPoint x="137.25" y="140" as="sourcePoint" />
+            <mxPoint x="142.25" y="180" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="167.25" y="170" />
+              <mxPoint x="172.25" y="210" />
             </Array>
+            <mxPoint x="147.24999999999994" y="210" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -488,19 +489,93 @@
         </mxCell>
         <mxCell id="r0zG9gZvDN9CVyKA6hXD-7" value="1、用户提交用户名和密码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r0zG9gZvDN9CVyKA6hXD-6">
           <mxGeometry x="-0.3972" relative="1" as="geometry">
-            <mxPoint x="52" as="offset" />
+            <mxPoint x="44" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r0zG9gZvDN9CVyKA6hXD-10" value="AuthenticationManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="641.44" y="3650" width="270" height="700" as="geometry" />
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-10" value="AuthenticationManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="522.5400000000001" y="3650" width="168.56" height="710" as="geometry" />
         </mxCell>
         <mxCell id="r0zG9gZvDN9CVyKA6hXD-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="r0zG9gZvDN9CVyKA6hXD-10">
-          <mxGeometry x="130" y="230" width="10" height="80" as="geometry" />
+          <mxGeometry x="79.28" y="240" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="r0zG9gZvDN9CVyKA6hXD-14" value="3、认证 authenticate" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1.2;exitY=0.381;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r0zG9gZvDN9CVyKA6hXD-8" target="r0zG9gZvDN9CVyKA6hXD-10">
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-14" value="3、认证 authenticate" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1.2;exitY=0.381;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="480" y="3910" as="sourcePoint" />
-            <mxPoint x="760" y="3909" as="targetPoint" />
+            <mxPoint x="312.18999999999994" y="3910" as="sourcePoint" />
+            <mxPoint x="601.7199999999999" y="3910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-15" value="DaoAuthenticationProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="762.04" y="3650" width="177.96" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="r0zG9gZvDN9CVyKA6hXD-15">
+          <mxGeometry x="83.98" y="280" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-17" value="4、委托认证 authenticate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0.856;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r0zG9gZvDN9CVyKA6hXD-13" target="r0zG9gZvDN9CVyKA6hXD-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="742.54" y="3940" as="sourcePoint" />
+            <mxPoint x="760" y="3940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="3950" />
+              <mxPoint x="810" y="3950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-21" value="UserDetailsService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="3650" width="177.96" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="r0zG9gZvDN9CVyKA6hXD-21">
+          <mxGeometry x="82.96000000000001" y="320" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-24" value="5、获取用户信息 loadUserByUsername" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="r0zG9gZvDN9CVyKA6hXD-21">
+          <mxGeometry x="0.1261" y="2" width="80" relative="1" as="geometry">
+            <mxPoint x="-155" y="348" as="sourcePoint" />
+            <mxPoint x="82.96000000000004" y="348" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-26" value="6、返回 UserDetails" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="r0zG9gZvDN9CVyKA6hXD-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="87.46000000000004" y="378" as="sourcePoint" />
+            <mxPoint x="-160.5" y="378" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-28" value="7、通过 PasswordEncoder&lt;div&gt;对比 UserDetails 与 Authentication&lt;/div&gt;&lt;div&gt;的密码是否一致&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="850" y="4077" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="880" y="4107" />
+            </Array>
+            <mxPoint x="855" y="4107" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-30" value="8、填充 Authentication 的权限信息&lt;div&gt;将 authenticated 设置为 true&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="850" y="4170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="880" y="4200" />
+            </Array>
+            <mxPoint x="855" y="4200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-31" value="9、返回 Authentication" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0018" relative="1" as="geometry">
+            <mxPoint x="847.61" y="4250" as="sourcePoint" />
+            <mxPoint x="308.62999999999994" y="4250" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-44" value="SecurityContextHolder" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="3650" width="177.96" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="r0zG9gZvDN9CVyKA6hXD-44">
+          <mxGeometry x="84" y="600" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r0zG9gZvDN9CVyKA6hXD-49" value="10、将 Authentication 保存到 SecurityContext 上下文中" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="308.62999999999994" y="4300" as="sourcePoint" />
+            <mxPoint x="1345.59" y="4300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
