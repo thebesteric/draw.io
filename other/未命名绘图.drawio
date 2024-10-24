@@ -31,6 +31,63 @@
         <mxCell id="aRdFHBVmu3mGeVa-sbNf-12" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="135" y="549.5" width="70" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRdFHBVmu3mGeVa-sbNf-15" target="aRdFHBVmu3mGeVa-sbNf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-15" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="505" y="100" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-23" value="&amp;nbsp;3 &amp;lt;= day &amp;lt; 5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRdFHBVmu3mGeVa-sbNf-17" target="aRdFHBVmu3mGeVa-sbNf-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-17" value="条件判断" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="210" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-19" value="部门组长审批" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRdFHBVmu3mGeVa-sbNf-20" target="aRdFHBVmu3mGeVa-sbNf-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-20" value="部门主管审批" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-21" value="部门经理审批" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aRdFHBVmu3mGeVa-sbNf-17" target="aRdFHBVmu3mGeVa-sbNf-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-25" value="day &amp;lt; 3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aRdFHBVmu3mGeVa-sbNf-22">
+          <mxGeometry x="-0.4603" y="-1" relative="1" as="geometry">
+            <mxPoint x="-43" y="81" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aRdFHBVmu3mGeVa-sbNf-17" target="aRdFHBVmu3mGeVa-sbNf-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-26" value="day &amp;gt;= 5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aRdFHBVmu3mGeVa-sbNf-24">
+          <mxGeometry x="0.6714" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRdFHBVmu3mGeVa-sbNf-27" target="aRdFHBVmu3mGeVa-sbNf-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-27" value="部门总监审批" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="489.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aRdFHBVmu3mGeVa-sbNf-19" target="aRdFHBVmu3mGeVa-sbNf-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aRdFHBVmu3mGeVa-sbNf-21" target="aRdFHBVmu3mGeVa-sbNf-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRdFHBVmu3mGeVa-sbNf-34" value="条件判断" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="610" width="100" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
