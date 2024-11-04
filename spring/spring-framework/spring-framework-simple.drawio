@@ -4,75 +4,75 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OPas7R8hlcuFhmpju5PL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-1" target="OPas7R8hlcuFhmpju5PL-3">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OPas7R8hlcuFhmpju5PL-1" target="OPas7R8hlcuFhmpju5PL-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-5" value="AppConfig.class" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OPas7R8hlcuFhmpju5PL-4">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-5" value="AppConfig.class" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OPas7R8hlcuFhmpju5PL-4" vertex="1" connectable="0">
           <mxGeometry x="-0.05" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-1" target="OPas7R8hlcuFhmpju5PL-12">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="OPas7R8hlcuFhmpju5PL-1" target="OPas7R8hlcuFhmpju5PL-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-1" value="&lt;div style=&quot;text-align: start; color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;AnnotationConfigApplicationContext&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-1" value="&lt;div style=&quot;text-align: start; color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;AnnotationConfigApplicationContext&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="110" y="80" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-3" target="OPas7R8hlcuFhmpju5PL-10">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="OPas7R8hlcuFhmpju5PL-3" target="OPas7R8hlcuFhmpju5PL-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-29" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-3" target="OPas7R8hlcuFhmpju5PL-28">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-29" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OPas7R8hlcuFhmpju5PL-3" target="OPas7R8hlcuFhmpju5PL-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-3" value="解析 AppConfig.class" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-3" value="解析 AppConfig.class" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="162.5" y="250" width="205" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-8" target="OPas7R8hlcuFhmpju5PL-1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OPas7R8hlcuFhmpju5PL-8" target="OPas7R8hlcuFhmpju5PL-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-8" value="&lt;div&gt;@ComponentScan&lt;/div&gt;AppConfig.class" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-8" value="&lt;div&gt;@ComponentScan&lt;/div&gt;AppConfig.class" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="460" y="80" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-18" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-10" target="OPas7R8hlcuFhmpju5PL-51">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-18" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OPas7R8hlcuFhmpju5PL-10" target="OPas7R8hlcuFhmpju5PL-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-10" value="解析&lt;div&gt;@&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51);&quot;&gt;ComponentScan&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-10" value="解析&lt;div&gt;@&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51);&quot;&gt;ComponentScan&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="435" y="250" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-12" value="configClass&lt;div&gt;beanDefinitionMap&lt;/div&gt;&lt;div&gt;singletonObjects&lt;br&gt;&lt;/div&gt;&lt;div&gt;beanPostProcessors&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-12" value="configClass&lt;div&gt;beanDefinitionMap&lt;/div&gt;&lt;div&gt;singletonObjects&lt;br&gt;&lt;/div&gt;&lt;div&gt;beanPostProcessors&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="137.5" y="-80" width="255" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-17" target="OPas7R8hlcuFhmpju5PL-12">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OPas7R8hlcuFhmpju5PL-17" target="OPas7R8hlcuFhmpju5PL-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-23" value="加入到 beanDefinitionMap 中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OPas7R8hlcuFhmpju5PL-22">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-23" value="加入到 beanDefinitionMap 中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OPas7R8hlcuFhmpju5PL-22" vertex="1" connectable="0">
           <mxGeometry x="-0.8776" y="2" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-17" value="将 @Comonent 注解的 Class&lt;div&gt;注册为&lt;/div&gt;&lt;div&gt;BeanDefinition&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-17" value="将 @Comonent 注解的 Class&lt;div&gt;注册为&lt;/div&gt;&lt;div&gt;BeanDefinition&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="250" width="175" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-24" target="OPas7R8hlcuFhmpju5PL-17">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OPas7R8hlcuFhmpju5PL-24" target="OPas7R8hlcuFhmpju5PL-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-24" value="type&lt;div&gt;scope&lt;/div&gt;&lt;div&gt;lazy&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-24" value="type&lt;div&gt;scope&lt;/div&gt;&lt;div&gt;lazy&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1060" y="230" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-31" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-28" target="OPas7R8hlcuFhmpju5PL-30">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-31" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OPas7R8hlcuFhmpju5PL-28" target="OPas7R8hlcuFhmpju5PL-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-34" value="判断 scope 是否是 singleton" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OPas7R8hlcuFhmpju5PL-31">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-34" value="判断 scope 是否是 singleton" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OPas7R8hlcuFhmpju5PL-31" vertex="1" connectable="0">
           <mxGeometry x="-0.0737" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-28" value="循环 beanDefinitionMap" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-28" value="循环 beanDefinitionMap" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="177.5" y="380" width="175" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-30" target="OPas7R8hlcuFhmpju5PL-12">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="OPas7R8hlcuFhmpju5PL-30" target="OPas7R8hlcuFhmpju5PL-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="50" y="585" />
@@ -80,52 +80,51 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-33" value="加入到 singletonObjects 中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OPas7R8hlcuFhmpju5PL-32">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-33" value="加入到 singletonObjects 中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OPas7R8hlcuFhmpju5PL-32" vertex="1" connectable="0">
           <mxGeometry x="-0.4921" y="-23" relative="1" as="geometry">
             <mxPoint x="17" y="28" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-38" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-30" target="OPas7R8hlcuFhmpju5PL-37">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-38" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="OPas7R8hlcuFhmpju5PL-30" target="OPas7R8hlcuFhmpju5PL-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-30" value="根据 BeanDefinition 创建 Bean" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-30" value="根据 BeanDefinition 创建 Bean" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="167.5" y="555" width="195" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-40" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-37" target="OPas7R8hlcuFhmpju5PL-39">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-40" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="OPas7R8hlcuFhmpju5PL-37" target="OPas7R8hlcuFhmpju5PL-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-41" value="创建 instance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OPas7R8hlcuFhmpju5PL-40">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-41" value="创建 instance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OPas7R8hlcuFhmpju5PL-40" vertex="1" connectable="0">
           <mxGeometry y="-4" relative="1" as="geometry">
             <mxPoint y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-37" value="推断构造方法" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-37" value="推断构造方法" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="555" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-43" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-39" target="OPas7R8hlcuFhmpju5PL-42">
+        <mxCell id="s-gUX2iYEuC7j-1QL4lA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-39" target="s-gUX2iYEuC7j-1QL4lA-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-39" value="处理 @Autowried 注解的属性" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-39" value="处理 @Autowried 注解的属性" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="555" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-50" value="&lt;span style=&quot;font-size: 12px; white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;返回 instance&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-42" target="OPas7R8hlcuFhmpju5PL-30">
+        <mxCell id="s-gUX2iYEuC7j-1QL4lA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-42" target="s-gUX2iYEuC7j-1QL4lA-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1055" y="670" />
-              <mxPoint x="265" y="670" />
+              <mxPoint x="1108" y="570" />
+              <mxPoint x="1108" y="570" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-42" value="执行 BeanPostProcessor" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="555" width="190" height="60" as="geometry" />
+        <mxCell id="s-gUX2iYEuC7j-1QL4lA-7" value="返回 instance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-gUX2iYEuC7j-1QL4lA-5">
+          <mxGeometry x="-0.1385" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-45" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-44" target="OPas7R8hlcuFhmpju5PL-42">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OPas7R8hlcuFhmpju5PL-42" value="执行 BeanPostProcessor 初始化前" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="985" y="495" width="245" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-44" value="Aware、初始化前、初始化、初始化后" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="937.5" y="410" width="235" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-53" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-51" target="OPas7R8hlcuFhmpju5PL-17">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-53" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="OPas7R8hlcuFhmpju5PL-51" target="OPas7R8hlcuFhmpju5PL-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="770" y="280" />
@@ -133,22 +132,50 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-51" target="OPas7R8hlcuFhmpju5PL-12">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OPas7R8hlcuFhmpju5PL-51" target="OPas7R8hlcuFhmpju5PL-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-57" value="加入到 beanPostProcessors 中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OPas7R8hlcuFhmpju5PL-56">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-57" value="加入到 beanPostProcessors 中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OPas7R8hlcuFhmpju5PL-56" vertex="1" connectable="0">
           <mxGeometry x="-0.8234" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-51" value="解析&lt;div&gt;BeanPostProcessor&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-51" value="解析&lt;div&gt;BeanPostProcessor&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="622.5" y="250" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-54" target="OPas7R8hlcuFhmpju5PL-51">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="OPas7R8hlcuFhmpju5PL-54" target="OPas7R8hlcuFhmpju5PL-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-54" value="判断是否是 BeanPostProcessor&lt;div&gt;的接口实现&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="OPas7R8hlcuFhmpju5PL-54" value="判断是否是 BeanPostProcessor&lt;div&gt;的接口实现&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="625" y="370" width="125" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s-gUX2iYEuC7j-1QL4lA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="s-gUX2iYEuC7j-1QL4lA-1" target="s-gUX2iYEuC7j-1QL4lA-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1108" y="710" />
+              <mxPoint x="1108" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-gUX2iYEuC7j-1QL4lA-1" value="执行实现 InitializingBean 接口的的方法" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="985" y="620" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-gUX2iYEuC7j-1QL4lA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="s-gUX2iYEuC7j-1QL4lA-2" target="OPas7R8hlcuFhmpju5PL-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-gUX2iYEuC7j-1QL4lA-2" value="执行实现 Aware 接口的的方法" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="985" y="370" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-gUX2iYEuC7j-1QL4lA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;dashed=1;" edge="1" parent="1" source="s-gUX2iYEuC7j-1QL4lA-3" target="OPas7R8hlcuFhmpju5PL-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-gUX2iYEuC7j-1QL4lA-10" value="返回 instance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-gUX2iYEuC7j-1QL4lA-9">
+          <mxGeometry x="-0.6859" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-gUX2iYEuC7j-1QL4lA-3" value="执行 BeanPostProcessor 初始化后" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="985" y="750" width="245" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
