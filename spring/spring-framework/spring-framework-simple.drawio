@@ -31,13 +31,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OPas7R8hlcuFhmpju5PL-8" value="&lt;div&gt;@ComponentScan&lt;/div&gt;AppConfig.class" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="480" y="80" width="200" height="60" as="geometry" />
+          <mxGeometry x="460" y="80" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-18" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-10" target="OPas7R8hlcuFhmpju5PL-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OPas7R8hlcuFhmpju5PL-18" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-10" target="OPas7R8hlcuFhmpju5PL-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="OPas7R8hlcuFhmpju5PL-10" value="解析 @&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51);&quot;&gt;ComponentScan&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="250" width="170" height="60" as="geometry" />
+        <mxCell id="OPas7R8hlcuFhmpju5PL-10" value="解析&lt;div&gt;@&lt;span style=&quot;caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51);&quot;&gt;ComponentScan&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="250" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OPas7R8hlcuFhmpju5PL-12" value="configClass&lt;div&gt;beanDefinitionMap&lt;/div&gt;&lt;div&gt;singletonObjects&lt;br&gt;&lt;/div&gt;&lt;div&gt;beanPostProcessors&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="137.5" y="-80" width="255" height="90" as="geometry" />
@@ -51,13 +53,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OPas7R8hlcuFhmpju5PL-17" value="将 @Comonent 注解的 Class&lt;div&gt;注册为&lt;/div&gt;&lt;div&gt;BeanDefinition&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="250" width="175" height="60" as="geometry" />
+          <mxGeometry x="810" y="250" width="175" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OPas7R8hlcuFhmpju5PL-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-24" target="OPas7R8hlcuFhmpju5PL-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OPas7R8hlcuFhmpju5PL-24" value="type&lt;div&gt;scope&lt;/div&gt;&lt;div&gt;lazy&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="940" y="230" width="100" height="100" as="geometry" />
+          <mxGeometry x="1060" y="230" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="OPas7R8hlcuFhmpju5PL-31" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-28" target="OPas7R8hlcuFhmpju5PL-30">
           <mxGeometry relative="1" as="geometry" />
@@ -122,6 +124,31 @@
         </mxCell>
         <mxCell id="OPas7R8hlcuFhmpju5PL-44" value="Aware、初始化前、初始化、初始化后" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="937.5" y="410" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OPas7R8hlcuFhmpju5PL-53" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-51" target="OPas7R8hlcuFhmpju5PL-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="280" />
+              <mxPoint x="770" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OPas7R8hlcuFhmpju5PL-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-51" target="OPas7R8hlcuFhmpju5PL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPas7R8hlcuFhmpju5PL-57" value="加入到 beanPostProcessors 中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OPas7R8hlcuFhmpju5PL-56">
+          <mxGeometry x="-0.8234" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OPas7R8hlcuFhmpju5PL-51" value="解析&lt;div&gt;BeanPostProcessor&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="250" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPas7R8hlcuFhmpju5PL-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OPas7R8hlcuFhmpju5PL-54" target="OPas7R8hlcuFhmpju5PL-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPas7R8hlcuFhmpju5PL-54" value="判断是否是 BeanPostProcessor&lt;div&gt;的接口实现&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="625" y="370" width="125" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
