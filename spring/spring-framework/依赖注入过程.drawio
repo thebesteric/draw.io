@@ -1,9 +1,97 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Safari/605.1.15" version="24.8.4">
   <diagram name="第 1 页" id="0XSO3AkpMgIEOb6epfD6">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jpshxPHvYFh-pelAWuRe-3" value="&lt;div style=&quot;text-align: start; white-space: normal; color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;element.inject(target, beanName, pvs);&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jpshxPHvYFh-pelAWuRe-1" target="jpshxPHvYFh-pelAWuRe-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413.5" y="170" />
+              <mxPoint x="413.5" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="374" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jpshxPHvYFh-pelAWuRe-2" target="jpshxPHvYFh-pelAWuRe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-2" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;value &lt;/span&gt;= &lt;span style=&quot;color: rgb(135, 16, 148);&quot;&gt;beanFactory&lt;/span&gt;.resolveDependency&lt;span style=&quot;color: rgb(14, 74, 142);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;desc&lt;/span&gt;, &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;beanName&lt;/span&gt;, &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;autowiredBeanNames&lt;/span&gt;, &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;typeConverter&lt;/span&gt;&lt;span style=&quot;color: rgb(14, 74, 142);&quot;&gt;)&lt;/span&gt;;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="49" y="190" width="729" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jpshxPHvYFh-pelAWuRe-4" target="jpshxPHvYFh-pelAWuRe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-4" value="&lt;div style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;result &lt;/span&gt;= doResolveDependency(&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;descriptor&lt;/span&gt;, &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;requestingBeanName&lt;/span&gt;, &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;autowiredBeanNames&lt;/span&gt;, &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;typeConverter&lt;/span&gt;);&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="23" y="280" width="781" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-6" value="处理 @Value 属性" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jpshxPHvYFh-pelAWuRe-8" target="jpshxPHvYFh-pelAWuRe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-8" value="判断 BD 中的 autowireCandidate 属性" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="140" y="670" width="266" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jpshxPHvYFh-pelAWuRe-10" target="jpshxPHvYFh-pelAWuRe-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-10" value="判断范型" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="213" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpshxPHvYFh-pelAWuRe-12" target="jpshxPHvYFh-pelAWuRe-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-12" value="判断 @Qualifier 注解" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="850" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="jpshxPHvYFh-pelAWuRe-14" target="jpshxPHvYFh-pelAWuRe-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-14" value="判断 @Primary" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="540" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="jpshxPHvYFh-pelAWuRe-16" target="jpshxPHvYFh-pelAWuRe-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-16" value="判断 @Priority" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="540" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpshxPHvYFh-pelAWuRe-18" target="jpshxPHvYFh-pelAWuRe-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-22" value="找到符合注入条件的 bean 对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jpshxPHvYFh-pelAWuRe-21">
+          <mxGeometry y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-18" value="比较 beanName" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="540" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-20" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="560" y="980" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jpshxPHvYFh-pelAWuRe-23" target="jpshxPHvYFh-pelAWuRe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-23" value="&lt;div style=&quot;font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;text-align: start; white-space: normal;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;String&lt;/span&gt;[] &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;candidateNames &lt;/span&gt;= &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;BeanFactoryUtils&lt;/span&gt;.&lt;span style=&quot;font-style: italic;&quot;&gt;beanNamesForTypeIncludingAncestors&lt;/span&gt;(&lt;br&gt;       &lt;span style=&quot;color: rgb(0, 51, 179);&quot;&gt;this&lt;/span&gt;, &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;requiredType&lt;/span&gt;, &lt;span style=&quot;color: rgb(0, 51, 179);&quot;&gt;true&lt;/span&gt;, &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;descriptor&lt;/span&gt;.isEager());&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="73.5" y="530" width="681" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpshxPHvYFh-pelAWuRe-6" target="jpshxPHvYFh-pelAWuRe-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpshxPHvYFh-pelAWuRe-31" value="&lt;div style=&quot;text-align: start; white-space: normal; color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;findAutowireCandidates()&lt;/pre&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jpshxPHvYFh-pelAWuRe-30">
+          <mxGeometry x="-0.2696" relative="1" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
