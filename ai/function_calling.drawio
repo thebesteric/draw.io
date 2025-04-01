@@ -1,9 +1,166 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.0.16">
   <diagram name="第 1 页" id="511jU42UKkNS_reo-jqJ">
-    <mxGraphModel>
+    <mxGraphModel dx="2069" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-2" target="q2ONfEbN1SgjNmtNY3_D-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-2" value="client.chat.completions.create(&lt;div&gt;model=model,&lt;/div&gt;&lt;div&gt;messages=messages,&lt;/div&gt;&lt;div&gt;tools=tools&lt;/div&gt;&lt;div&gt;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;glass=0;fontSize=13;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="170" width="305" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-4" target="q2ONfEbN1SgjNmtNY3_D-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-4" value="用户" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="325" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-24" value="需要调用工具" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;flowAnimation=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-6" target="q2ONfEbN1SgjNmtNY3_D-20">
+          <mxGeometry x="0.4444" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="360" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-6" target="q2ONfEbN1SgjNmtNY3_D-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-27" value="不需要调用工具" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="q2ONfEbN1SgjNmtNY3_D-26">
+          <mxGeometry x="0.5415" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-6" value="是否需要&lt;div&gt;调用外部函数&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-8" target="q2ONfEbN1SgjNmtNY3_D-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-19" value="提供 Tools 工具及调用参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="q2ONfEbN1SgjNmtNY3_D-18">
+          <mxGeometry x="0.0029" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-8" target="q2ONfEbN1SgjNmtNY3_D-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="460" />
+              <mxPoint x="-250" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="130" width="340" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-9" target="q2ONfEbN1SgjNmtNY3_D-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-9" value="Step 1. 自定义函数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="155" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-10" target="q2ONfEbN1SgjNmtNY3_D-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-10" value="Step 2. 给函数添加 Json Schema 表示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="255" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-14" value="Step 3. 创建 Tool-List 列表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="355" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-16" value="外部函数库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-20" target="q2ONfEbN1SgjNmtNY3_D-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-29" value="传递给外部函数库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="q2ONfEbN1SgjNmtNY3_D-28">
+          <mxGeometry x="0.1481" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-20" target="q2ONfEbN1SgjNmtNY3_D-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="560" />
+              <mxPoint x="230" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-20" value="输出：assistant message&lt;div&gt;content: None&lt;/div&gt;&lt;div&gt;tool_calls: 包括调用函数的名称和参数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="110" y="460" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-25" value="输出：assistant message&lt;div&gt;content: 模型输出的消息&lt;/div&gt;&lt;div&gt;tool_calls: None&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=6;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="445" y="460" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-30" target="q2ONfEbN1SgjNmtNY3_D-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="600" />
+              <mxPoint x="-250" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-30" value="Step 1&lt;div&gt;&lt;br&gt;&lt;div&gt;通过 tool_calls 的函数名&lt;/div&gt;&lt;div&gt;找到对应的函数&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="500" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-31" target="q2ONfEbN1SgjNmtNY3_D-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="720" />
+              <mxPoint x="-250" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-31" value="Step 2&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;div&gt;将 tool_calls 提供的参数&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;传递给对应的函数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="620" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-32" target="q2ONfEbN1SgjNmtNY3_D-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-32" value="Step 3&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;div&gt;执行函数，并得到结果&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="740" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-36" target="q2ONfEbN1SgjNmtNY3_D-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-43" value="追加 ToolMessage 消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="q2ONfEbN1SgjNmtNY3_D-42">
+          <mxGeometry x="-0.0387" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-36" value="Step 4&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;div&gt;将输出封装为 &lt;span style=&quot;color: rgb(234, 107, 102);&quot;&gt;ToolMessage&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;role: tool&lt;/div&gt;&lt;div&gt;name: 函数名&lt;/div&gt;&lt;div&gt;content: 执行结果&lt;/div&gt;&lt;div&gt;tool_call_id: id&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="870" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-38" target="q2ONfEbN1SgjNmtNY3_D-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-38" value="user message&lt;div&gt;+&lt;/div&gt;&lt;div&gt;assistant message&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;spacingLeft=6;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="135" y="600" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-40" target="q2ONfEbN1SgjNmtNY3_D-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-40" value="user message&lt;div&gt;+&lt;/div&gt;&lt;div&gt;assistant message&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(234, 107, 102);&quot;&gt;tool message&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;spacingLeft=6;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="135" y="720" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="q2ONfEbN1SgjNmtNY3_D-45" target="q2ONfEbN1SgjNmtNY3_D-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-45" value="LLM&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;消息总结&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;glass=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="880" width="205" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-47" value="输出：Final Answer" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacingLeft=6;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1020" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q2ONfEbN1SgjNmtNY3_D-49" value="Function Call 流程图" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;glass=0;fontFamily=Comic Sans MS;fontColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="40" width="300" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
