@@ -4,56 +4,102 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4HEI8u6SiJJmMDaHa_lF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-1" target="4HEI8u6SiJJmMDaHa_lF-2">
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;curved=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-1" target="4HEI8u6SiJJmMDaHa_lF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-38" value="First to search information" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;fontSize=12;" vertex="1" connectable="0" parent="4HEI8u6SiJJmMDaHa_lF-25">
+          <mxGeometry x="0.2839" y="34" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-1" value="user&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;need xxx a chat&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=15;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="315" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-35" value="message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;curved=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;fontSize=12;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-2" target="4HEI8u6SiJJmMDaHa_lF-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="300" y="190" />
-              <mxPoint x="300" y="190" />
+              <mxPoint x="190" y="250" />
+              <mxPoint x="348" y="250" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4HEI8u6SiJJmMDaHa_lF-1" value="user" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=15;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="240" y="80" width="120" height="80" as="geometry" />
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-2" value="Researcher&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;call search tool&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=15;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="100" y="305" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4HEI8u6SiJJmMDaHa_lF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;sketch=1;curveFitting=1;jiggle=2;dashed=1;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-2" target="4HEI8u6SiJJmMDaHa_lF-5">
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-37" value="message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;fontSize=12;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-3" target="4HEI8u6SiJJmMDaHa_lF-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="250" />
+              <mxPoint x="403" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-3" value="Chat generator&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;call generate tool&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=15;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="530" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-5" target="4HEI8u6SiJJmMDaHa_lF-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4HEI8u6SiJJmMDaHa_lF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;sketch=1;curveFitting=1;jiggle=2;curved=1;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-2" target="4HEI8u6SiJJmMDaHa_lF-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4HEI8u6SiJJmMDaHa_lF-16" value="continue" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;fontSize=15;" vertex="1" connectable="0" parent="4HEI8u6SiJJmMDaHa_lF-9">
-          <mxGeometry x="0.1259" y="-20" relative="1" as="geometry">
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-40" value="If sender is &quot;Researcher&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="4HEI8u6SiJJmMDaHa_lF-29">
+          <mxGeometry x="0.3313" y="-27" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4HEI8u6SiJJmMDaHa_lF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;curved=1;dashed=1;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-2" target="4HEI8u6SiJJmMDaHa_lF-1">
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;dashed=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-5" target="4HEI8u6SiJJmMDaHa_lF-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4HEI8u6SiJJmMDaHa_lF-2" value="Researcher" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=15;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="240" y="230" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4HEI8u6SiJJmMDaHa_lF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-3" target="4HEI8u6SiJJmMDaHa_lF-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4HEI8u6SiJJmMDaHa_lF-15" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;continue&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="4HEI8u6SiJJmMDaHa_lF-10">
-          <mxGeometry x="0.025" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-41" value="If sender is &quot;Chat generator&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="4HEI8u6SiJJmMDaHa_lF-30">
+          <mxGeometry x="0.3813" y="20" relative="1" as="geometry">
+            <mxPoint y="6" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="4HEI8u6SiJJmMDaHa_lF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;sketch=1;curveFitting=1;jiggle=2;curved=1;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-3" target="4HEI8u6SiJJmMDaHa_lF-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4HEI8u6SiJJmMDaHa_lF-3" value="Chat generator" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=15;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="400" y="430" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4HEI8u6SiJJmMDaHa_lF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;curved=1;sketch=1;curveFitting=1;jiggle=2;dashed=1;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-5" target="4HEI8u6SiJJmMDaHa_lF-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4HEI8u6SiJJmMDaHa_lF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;sketch=1;curveFitting=1;jiggle=2;curved=1;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-5" target="4HEI8u6SiJJmMDaHa_lF-3">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4HEI8u6SiJJmMDaHa_lF-5" value="Call Tools" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=15;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="80" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="315" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;curved=1;dashed=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-24" target="4HEI8u6SiJJmMDaHa_lF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="410" />
+              <mxPoint x="190" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-43" value="Sender is &quot;Researcher&quot;&lt;div&gt;and should &quot;continue&quot;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="4HEI8u6SiJJmMDaHa_lF-27">
+          <mxGeometry x="0.072" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-28" value="If function is called" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;sketch=1;curveFitting=1;jiggle=2;fontSize=12;fontFamily=Comic Sans MS;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-24" target="4HEI8u6SiJJmMDaHa_lF-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="440" />
+              <mxPoint x="375" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-32" value="&lt;span style=&quot;font-family: &amp;quot;Comic Sans MS&amp;quot;; font-size: 12px;&quot;&gt;Sender is &quot;Chat generator&quot;&lt;/span&gt;&lt;div style=&quot;font-family: &amp;quot;Comic Sans MS&amp;quot;; font-size: 12px;&quot;&gt;and should &quot;continue&quot;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;curved=1;sketch=1;curveFitting=1;jiggle=2;dashed=1;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-24" target="4HEI8u6SiJJmMDaHa_lF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="403" y="410" />
+              <mxPoint x="560" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-44" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Sender%20is%20%26quot%3BResearcher%26quot%3B%26lt%3Bdiv%26gt%3Band%20should%20%26quot%3Bcontinue%26quot%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3BfontSize%3D12%3BfontFamily%3DComic%20Sans%20MS%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22261%22%20y%3D%22410%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4HEI8u6SiJJmMDaHa_lF-32">
+          <mxGeometry x="0.024" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;curved=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="4HEI8u6SiJJmMDaHa_lF-24" target="4HEI8u6SiJJmMDaHa_lF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-42" value="Final Answer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="4HEI8u6SiJJmMDaHa_lF-33">
+          <mxGeometry x="0.2222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HEI8u6SiJJmMDaHa_lF-24" value="Router" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="110" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
