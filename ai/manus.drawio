@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15" version="26.2.10">
   <diagram name="第 1 页" id="suB4warGQV20kbHiYEps">
-    <mxGraphModel>
+    <mxGraphModel dx="1236" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-1" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="64" y="520" width="700" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-2" value="Python 编程环境" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="210" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-3" value="基础环境" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;fontSize=13;fontColor=#FFB570;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-4" value="本地浏览器" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-5" value="本地文件系统" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="530" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-6" value="......" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="690" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-7" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fontFamily=Comic Sans MS;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="650" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-8" value="Function Calling 三种响应模式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Comic Sans MS;fontColor=#FFB570;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="6bVg7uPTFIk4U3r5YO_5-9" target="6bVg7uPTFIk4U3r5YO_5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-9" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Comic Sans MS;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="6bVg7uPTFIk4U3r5YO_5-10" target="6bVg7uPTFIk4U3r5YO_5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-10" value="tool_1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="6bVg7uPTFIk4U3r5YO_5-11" target="6bVg7uPTFIk4U3r5YO_5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-11" value="tool_3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-14" value="tool_3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="580" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bVg7uPTFIk4U3r5YO_5-16" value="Function Calling 串联" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="150" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
